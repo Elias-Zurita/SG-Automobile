@@ -1,0 +1,37 @@
+LAVANDERIA: 
+- OUR SERVICES
+- WHY CHOOSE US
+- HOW WE WORK 
+- OUR CLIENT SAYS
+
+TRAVELER:
+- BANNER CAROUSEL
+- WHAT SAY OUR CLIENTS
+
+FASTER:
+- OUR CLIENTS SAYS
+
+ROYAL:
+- MEEET OUR TEAM
+- CONTACT US
+- CAROUSEL DE MARCAS
+
+======================================================
+
+Usar plantillas
+Vincular instagram con HTML
+
+Sección nuestros clientes
+
+Sección nosotros
+(Carrousel oficinas)
+
+Sección con info de cada auto (Giamma tiene)
+El carrousel con colores de autos Fiat autodrive tiene
+Sacar de ahí el msj de WhatsApp predeterminado
+Robar de Fiat autodrive
+
+Sección ubicación y contacto
+
+Cuenta regresiva X cosa de seba
+Acordeón Giamma tiene uno
