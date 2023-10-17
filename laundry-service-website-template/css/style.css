@@ -9540,24 +9540,6 @@ h6,
   }
 }
 
-.testimonial-carousel .owl-dots {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #46C6CE;
-}
-
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
@@ -9634,6 +9616,7 @@ h6,
   background: #9b1c43;
 }
 
+
 .testimonial-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
@@ -9648,13 +9631,10 @@ h6,
   background: #DDDDDD;
   transition: .5s;
 }
-
-.testimonial-carousel .owl-dot.active {
+.testimonial-carousel .owl-dot.active {  /* boton de navegacion activo */
   width: 40px;
   background: #7AB730;
 }
-
 .testimonial-carousel .owl-item.center .testimonial-text {
   box-shadow: 0 0 30px #CCCCCC;
-
 }
