@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #757575;
+  color: black;
   text-align: left;
-  background-color: #fff;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -359,12 +359,12 @@ template {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #194376;
+  color: #9b1c43;
 }
 
 h1, .h1 {
@@ -2365,13 +2365,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #194376;
-  border-color: #194376;
+  background-color: var(--gray-dark);;
+  border-color: black;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #123156;
+  background-color: #9b1c43 !important;;
   border-color: #102b4c;
 }
 
@@ -6092,7 +6092,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #194376 !important;
+  background-color: black !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6102,7 +6102,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #46C6CE !important;
+  background-color: #9b1c43 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7561,7 +7561,7 @@ button.bg-dark:focus {
 
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: 0.3rem !important;
 }
 
 .pr-4,
@@ -7571,7 +7571,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 0.3rem !important;
 }
 
 .pl-4,
@@ -9270,7 +9270,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #46C6CE !important;
+  color: rgb(155, 28, 67) !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9560,6 +9560,8 @@ h6,
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   margin-top: 3%;
+  color: #9b1c43;
+  text-shadow: -1px 4px 3px rgba(0,0,0,0.48);
 }
 .padreModelos{
   display: flex;
@@ -9615,8 +9617,25 @@ h6,
 .modelo:hover .botonModelo button{
   background: #9b1c43;
 }
-
-
+.cajaOfrecemos{
+  background:var(--gray-dark);
+  transition: 0.3s ease-in-out;
+}
+.cajaOfrecemos h4{
+  color: white;
+}
+.cajaOfrecemos:hover{
+  background: #9b1c43;
+  box-shadow: 0 0 30px #CCCCCC;
+  transform: translateY(-10px); 
+}
+.cajaOfrecemos i{
+  font-size: 50px;
+  color: #9b1c43;;
+}
+.fa-trophy{
+  font-size:180px
+}
 .testimonial-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
@@ -9628,13 +9647,17 @@ h6,
   margin: 0 5px;
   width: 20px;
   height: 20px;
-  background: #DDDDDD;
+  background: var(--gray);
   transition: .5s;
 }
 .testimonial-carousel .owl-dot.active {  /* boton de navegacion activo */
   width: 40px;
-  background: #7AB730;
+  background: #9b1c43 !important;;
 }
 .testimonial-carousel .owl-item.center .testimonial-text {
   box-shadow: 0 0 30px #CCCCCC;
+}
+.logoFooter{
+  font-family: 'Tomorrow', sans-serif;
+  text-shadow: -1px 4px 3px rgba(155, 28, 67, 0.48)
 }
