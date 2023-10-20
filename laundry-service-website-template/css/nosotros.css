@@ -1,0 +1,147 @@
+
+.team-item {
+    transition: .5s;
+}
+.team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+  
+.team-social a.btn {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    opacity: 0;
+}
+  
+.team-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+  
+.team-item:hover .team-social {
+    background: rgba(0, 0, 0, 0.5);
+}
+  
+.team-item:hover .team-social a.btn:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+  
+.team-item:hover .team-social a.btn:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .05s;
+}
+  
+.team-item:hover .team-social a.btn:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+  
+.team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .15s;
+}
+  
+.team-item .team-img img {
+    transition: .5s;
+}
+  
+.team-item:hover .team-img img {
+    transform: scale(1.2);
+}
+.cajaEmpleados{
+    width: 80%;
+    margin: 5% auto;
+    border: red solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.empleado{
+    width: 250px;
+    margin: 10px;
+}
+.cajaPresentacionSG{
+    border: solid red 2px;
+    width: 100%;
+    margin: 0 auto 3% 0;
+    display: flex;
+    background-color: black;
+}
+.cajaLogoPresentacion{
+    border: blue solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoPresentacion{
+    color: white;
+    padding: 3% 2% 1% 2%;
+}
+.tituloVirtudes{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.virtudesAgencia{
+    border: violet solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1% auto;
+    justify-content: center;
+}
+.virtud{
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px #CCCCCC;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.virtud:hover{
+    transform: scale(1.03);
+}
+.virtud:hover .cajaIconoVirtur{
+    background-color: #9b1c43;
+}
+.cajaIconoVirtur{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    transition: .3s ease-in-out;
+    border: #9b1c43 solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloVirtud{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width:1000px){ 
+    .cajaPresentacionSG{
+        flex-direction: column;
+    }
+    .cajaLogoPresentacion{
+        border: blue solid 2px;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .cajaLogoPresentacion img{
+        width: 50%;
+    }
+}

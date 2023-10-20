@@ -1,12 +1,5 @@
-LAVANDERIA: 
-- OUR SERVICES
-- WHY CHOOSE US
-- HOW WE WORK 
-- OUR CLIENT SAYS
-
 TRAVELER:
-- BANNER CAROUSEL
-- WHAT SAY OUR CLIENTS
+- Our travel guides para poner imagenes de empleados en sobre nosotros
 
 FASTER:
 - OUR CLIENTS SAYS
