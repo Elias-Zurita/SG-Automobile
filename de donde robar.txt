@@ -1,13 +1,10 @@
-TRAVELER:
-- Our travel guides para poner imagenes de empleados en sobre nosotros
-
-FASTER:
-- OUR CLIENTS SAYS
-
 ROYAL:
-- MEEET OUR TEAM
 - CONTACT US
-- CAROUSEL DE MARCAS
+- CAROUSEL DE MARCAS(reemplazarlo por fotos de los autos)
+
+SECCION AUTO:
+tab gallery (https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp) con fotos del auto
+otra opcion es que se agranden (https://www.w3schools.com/howto/howto_js_lightbox.asp)
 
 ======================================================
 

@@ -1,0 +1,96 @@
+/* SECCION CONTACTO */
+.botonesContacto{
+    width: 50%;
+    margin: 3% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacto{
+    background-size: cover; /* expande imagen para que cubra todo el fondo */
+    color: white;
+    padding-bottom: 2%;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: #ced4da solid 1px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: #252A2E;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #9b1c43;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+}
+.local{
+    width: 100%;
+    display: flex;
+}
+/* Mapa */
+iframe{
+    width: 100%;
+    height: 550px;
+}
+
+/* Deskopt */
+@media (max-width:1200px){ 
+
+}
+/* Tablets */
+@media (max-width:800px){ 
+    .contacto .contenido-seccion{
+        width: 100%;
+    }
+    .contacto .fila{
+        flex-direction: column;
+    }
+    .contacto .col{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

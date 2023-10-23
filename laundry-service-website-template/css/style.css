@@ -9528,14 +9528,15 @@ h6,
 
 .logoHeader{
   width: 100%;
-
 }
 .navbar-brand{
   width: 75px;
 }
-.imagenCarousel{
-  width: 100%;
-  height: 87vh; /* alto de la imagen del carousel (ocupara el 100% del alto de la pantalla) */
+.carousel-item{
+  height: 100vh;
+}
+.carousel-item img{
+  height: 100vh;
   object-fit: cover;
 }
 .tituloConoceModelos{
@@ -9549,7 +9550,6 @@ h6,
 }
 .padreModelos{
   display: flex;
-  border: blue solid 2px;
   width: 70%;
   margin: 3% auto;
   flex-wrap: wrap;
@@ -9557,7 +9557,7 @@ h6,
   justify-content: center;
 }
 .modelo{
-  border: #9b1c43 solid 3px;
+  border: #ced4da solid 1px;
   margin: 10px;
   cursor: pointer; /* mouse en modo hipervinculo */
   display: flex;
@@ -9568,7 +9568,6 @@ h6,
   height: 250px;
   cursor: pointer; /* mouse en modo hipervinculo */
   overflow: hidden; /* la imagen no se sale de su caja al expandirse con el hover */
-  border: green solid 2px;
 }
 .modelo:hover .imagenAumentada{  /* agranda la imagen al hacer hover sobre la caja modelo */
   transform: scale(1.3); 
@@ -9621,7 +9620,7 @@ h6,
   font-size:180px
 }
 .testimonial-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 25px;
   text-align: center;
 }
 
