@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DRYME - Free Laundry Service Website Template</title>
+    <title>SG Automobile</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/clientes.css" rel="stylesheet">
+    <link href="css/ubicacion.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nuestros Modelos</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <a href="price.html" class="nav-item nav-link">Preguntas Frecuentes</a>
-                    <a href="clientes.html" class="nav-item nav-link">Nuestros Clientes</a>
+                    <a href="clientes.html" class="nav-item nav-link active">Nuestros Clientes</a>
                     <a href="ubicacion.html" class="nav-item nav-link">Ubicación y Contacto</a>
                     <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
                 </div>
@@ -263,8 +263,11 @@
                                 <textarea class="form-control" rows="6" id="message" placeholder="💬 ¿Cómo podemos ayudarte?" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div>
-                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                            <div class="botonMensaje">
+                                <button>
+                                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                                    <span class="overlay"></span>
+                                </button> 
                             </div>
                         </form>
                     </div>
