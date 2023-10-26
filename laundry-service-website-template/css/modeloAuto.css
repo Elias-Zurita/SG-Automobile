@@ -1,5 +1,32 @@
-.gallery-item {
-    width: 200px;
-    padding: 5px;
-  }
-  
+.cajaImagenesModelos{
+  display: flex;
+  border: blue solid 2px;
+  width: 80%;
+  margin: 5% auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.cajaImagenesModelos a{
+  display: inline-block;
+  border: black solid 3px;
+}
+.cajaImagenesModelos img{
+  width: 100%;
+  border: violet solid 3px;
+}
+.lg-actions .lg-prev:after { /* Iconos para flechas de lightGallery */
+  content: "←" !important;
+  font-size: 50px;
+}
+.lg-actions .lg-next::before {
+  content: "→" !important;
+  font-size: 50px;
+}
+.lg-toolbar .lg-close::after {
+  content: "×" !important;
+  font-size: 50px;
+}
+.lg-toolbar .lg-download:after { /* Boton para descargar imagen de lightGallery */
+  display: none;
+}
+
