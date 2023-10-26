@@ -28,6 +28,9 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/modeloAuto.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+    
+    <!-- Libreria flickyty para carrouseles -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
 </head>
 
 <body>
@@ -85,22 +88,22 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/banner-toro.jpg" alt="Image">
+                    <img class="w-100" src="img/abarth/abarthCarrousel1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column justify-content-center">
                         <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">NUEVA TORO 2023</h4>
-                            <h1 class="display-3 text-white mb-md-4">ZARAZA</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">CONOCE MÁS</a>
+                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
+                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/banner-pulse.jpg" alt="Image">
+                    <img class="w-100" src="img/abarth/abarthCarrousel2.png" alt="Image">
                     <div class="carousel-caption d-flex flex-column justify-content-center">
                         <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">NUEVO PULSE 2023</h4>
-                            <h1 class="display-3 text-white mb-md-4">ZARAZA</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">CONOCE MÁS</a>
+                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
+                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
                         </div>
                     </div>
                 </div>
@@ -125,11 +128,20 @@
     </div>
 
     <div id="lightgallery" class="cajaImagenesModelos">
-        <a href="img/abarth/Capa_Design.jpg">
-            <img src="img/abarth/Capa_Design.jpg"/>
+        <a href="img/abarth/abarth1.png">
+            <img src="img/abarth/abarth1.png"/>
         </a>
-        <a href="img/abarth/hero.png">
-            <img src="img/abarth/hero.png"/>
+        <a href="img/abarth/abarth2.jpg">
+            <img src="img/abarth/abarth2.jpg"/>
+        </a>
+        <a href="img/abarth/abarth3.jpg">
+            <img src="img/abarth/abarth3.jpg"/>
+        </a>
+        <a href="img/abarth/abarth5.jpg">
+            <img src="img/abarth/abarth5.jpg"/>
+        </a>
+        <a href="img/abarth/abarth4.jpg">
+            <img src="img/abarth/abarth4.jpg"/>
         </a>
     </div>
 
@@ -137,10 +149,43 @@
         <p>Fiat 500 Abarth 595 Turismo es la mayor expresión de los princípios de rendimento, artesanía, diseño italiano y actualización técnica que caracteriza a la marca con la insignia del escorpión.</p>
         <p>Su contenido técnico es superior, com los discos de freno autoventilados, suspensión trasera Koni con tecnología FSD, butacas exclusivas, direción asistida eléctrica dual drive y escape exclusivo Abarth.</p>
         <p>Internamente todos los detalles remiten a la deportividad a partir de equipamientos únicos que resaltan el espíritu Abarth, tales como los asientos deportivos Abarth, panel de instrumentos con pantalla de 7" TFT, sistema de climatización automático y volante de cuero deportivo con visor complementan los interiores.</p>
-        
     </div>
 
-    
+    <div class="otrosModelos">
+        Nuestros Modelos
+    </div>
+
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": true}'>
+        <div class="autoCarouselFlickity">
+            <img src="img/abarth/abarth1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/argo/argoo1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/cronos/cronos1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/mobi/mobi1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/pulse/pulse1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/toro/toro1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/ducato/ducato1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/fiorino/fiorino1.png" alt="" class="imagenAumentada">
+        </div>
+        <div class="autoCarouselFlickity">
+            <img src="img/strada/strada1.png" alt="" class="imagenAumentada">
+        </div>
+  
+    </div>
 
     <div class="padreModelos">
         <div class="modelo">
@@ -580,6 +625,9 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Libreria flickyty para carrouseles -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
 
     <!-- lightgallery plugins -->
     <script src="js/lightgallery.min.js"></script>

@@ -1,18 +1,20 @@
 .cajaImagenesModelos{
   display: flex;
-  border: blue solid 2px;
-  width: 80%;
+  background: black;
+  padding: 5% 0;
+  width: 100%;
   margin: 5% auto;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .cajaImagenesModelos a{
-  display: inline-block;
-  border: black solid 3px;
+  width:500px;
+  margin: 10px;
 }
 .cajaImagenesModelos img{
   width: 100%;
-  border: violet solid 3px;
+  
 }
 .lg-actions .lg-prev:after { /* Iconos para flechas de lightGallery */
   content: "←" !important;
@@ -29,4 +31,49 @@
 .lg-toolbar .lg-download:after { /* Boton para descargar imagen de lightGallery */
   display: none;
 }
+.infoAuto{
+  width:80%;
+  margin: 5% auto;
+}
 
+/* CAROUSEL flickity */
+.carousel{
+  width: 93%;
+  margin: 0 auto;
+  border: red solid 1px;
+}
+.autoCarouselFlickity {
+  width: 25%;  /* Determina la cantidad de cajas que se van a ver del carrousel */
+  height: 500px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: violet solid 3px;
+  background-color: black;
+}
+.autoCarouselFlickity img{
+  width: 100%;
+  margin: 0;
+}
+.flickity-prev-next-button.previous {
+  left: -3%;
+  color: red;
+  background: transparent;
+  top: 29%;
+}
+.flickity-prev-next-button.next {
+  right: -3%;
+  color: red;
+  background: transparent;
+  top: 29%;
+}
+.flickity-page-dots {  /* Pelotitas inferiores de navegacion */
+  display: none;
+}
+@media (max-width:800px){
+  .carousel-cell {
+      width: 50%;
+  }
+}
