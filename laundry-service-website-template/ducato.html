@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DRYME - Free Laundry Service Website Template</title>
+    <title>SG Automobile</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -26,10 +26,16 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/nosotros.css" rel="stylesheet">
+    <link href="css/ubicacion.css" rel="stylesheet">
+    <link href="css/modeloAuto.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+    
+    <!-- Libreria flickyty para carrouseles -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
 </head>
 
 <body>
+   
 
     <!-- Header Start -->
     <div class="container-fluid p-0">
@@ -65,7 +71,7 @@
                     <a href="price.html" class="nav-item nav-link">Preguntas Frecuentes</a>
                     <a href="clientes.html" class="nav-item nav-link">Nuestros Clientes</a>
                     <a href="ubicacion.html" class="nav-item nav-link">Ubicación y Contacto</a>
-                    <a href="nosotros.html" class="nav-item nav-link active">Nosotros</a>
+                    <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
                 </div>
             </div>
         </nav>
@@ -83,22 +89,22 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="imagenCarousel" src="img/vendedores2.jpg" alt="Image">
+                    <img class="w-100" src="img/ducato/ducatoCarrousel1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column justify-content-center">
                         <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">NUEVAS OFICINAS</h4>
-                            <h1 class="display-3 text-white mb-md-4">SAN MIGUEL</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">TE ESPERAMOS!</a>
+                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
+                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="imagenCarousel" src="img/vendedores.jpg" alt="Image">
+                    <img class="w-100" src="img/ducato/ducatoCarrousel2.png" alt="Image">
                     <div class="carousel-caption d-flex flex-column justify-content-center">
                         <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">NUEVAS OFICINAS</h4>
-                            <h1 class="display-3 text-white mb-md-4">SAN MIGUEL</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">TE ESPERAMOS!</a>
+                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
+                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
                         </div>
                     </div>
                 </div>
@@ -117,190 +123,104 @@
     </div>
     <!-- Carousel End -->
 
-    <!-- Presentacion empresa -->
-    <div class="cajaPresentacionSG">
-        <div class="cajaLogoPresentacion">
-            <img src="img/logoNuevo.png" alt="">
+    <!-- MODELOS -->
+    <div class="tituloModelo">
+        DUCATO
+    </div>
+
+    <div id="lightgallery" class="cajaImagenesModelos">
+        <a href="img/ducato/ducato2.jpg">
+            <img src="img/ducato/ducato2.jpg"/>
+        </a>
+        <a href="img/ducato/ducato3.jpg">
+            <img src="img/ducato/ducato3.jpg"/>
+        </a>
+        <a href="img/ducato/ducato4.jpg">
+            <img src="img/ducato/ducato4.jpg"/>
+        </a>
+        <a href="img/ducato/ducato5.png">
+            <img src="img/ducato/ducato5.png"/>
+        </a>
+        <a href="img/ducato/ducato6.png">
+            <img src="img/ducato/ducato6.png"/>
+        </a>
+    </div>
+
+    <div class="infoAuto">
+        <p>Fiat 500 Abarth 595 Turismo es la mayor expresión de los princípios de rendimento, artesanía, diseño italiano y actualización técnica que caracteriza a la marca con la insignia del escorpión.</p>
+        <p>Su contenido técnico es superior, com los discos de freno autoventilados, suspensión trasera Koni con tecnología FSD, butacas exclusivas, direción asistida eléctrica dual drive y escape exclusivo Abarth.</p>
+        <p>Internamente todos los detalles remiten a la deportividad a partir de equipamientos únicos que resaltan el espíritu Abarth, tales como los asientos deportivos Abarth, panel de instrumentos con pantalla de 7" TFT, sistema de climatización automático y volante de cuero deportivo con visor complementan los interiores.</p>
+    </div>
+
+    <div class="otrosModelos">
+        Nuestros Modelos
+    </div>
+
+    <!-- Flickity HTML init -->
+    <div class="cajaCarouselFlickity" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": true}'>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/abarth/abarth1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">ABARTH</div>
         </div>
-        <div class="textoPresentacion">
-            <p>En SG Automobile, somos mucho más que una agencia comercializadora de autos. Somos su puerta de entrada al emocionante mundo de Fiat.</p>
-            <p>Somos apasionados por la marca Fiat. Creemos que los automóviles Fiat representan una combinación perfecta de estilo italiano, innovación tecnológica y rendimiento excepcional. Nuestra pasión por estos vehículos nos impulsa a compartir esta experiencia única con usted.</p>
-            <p>En SG Automobile, nos enorgullece nuestra integridad, transparencia y dedicación a nuestros clientes. Cada compra es una inversión importante, y estamos comprometidos a hacer que su experiencia con nosotros sea excepcional.</p>
-            <p>Su confianza es nuestra prioridad.</p>
-            <p>Nuestra Misión: Brindar a nuestros clientes una experiencia excepcional en la adquisición de vehículos Fiat. Nos esforzamos por ser su socio de confianza en la compra de autos nuevos y usados, garantizando calidad, confiabilidad y satisfacción en cada transacción.</p>
-            <p>Nuestra Visión: Ser la agencia líder en la comercialización de vehículos Fiat, reconocida por su pasión por la marca, su compromiso con la excelencia en el servicio al cliente y su contribución a la promoción de la innovación y la sostenibilidad en la industria automotriz.</p>
-            <p>Nuestros Valores: Integridad, Excelencia en el Servicio al Cliente, Calidad, Innovación, Sostenibilidad, Trabajo en Equipo, Diversidad e Inclusión y Aprendizaje Continuo.</p>
-            <br>
-            <p>Si está buscando la calidad, la sofisticación italiana y un viaje emocionante, su elección es SG Automobile.</p>
-            <p>Déjenos ser su socio de confianza en su próxima aventura en la carretera.</p>
-            <p>¡Esperamos tener el placer de servirle y compartir la emoción de Fiat con usted!</p>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/argo/argoo1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">ARGO</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/cronos/cronos1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">CRONOS</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/mobi/mobi1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">MOBI</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/pulse/pulse1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">PULSE</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/toro/toro1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">TORO</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/ducato/ducato1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">DUCATO</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/fiorino/fiorino1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">FIORINO</div>
+        </div>
+        <div class="autoCarouselFlickity">
+            <div class="imagenAutoCarousel">
+                <img src="img/strada/strada1.png" alt="" class="imagenAumentada">
+            </div>
+            <div class="nombreAuto">STRADA</div>
         </div>
     </div>
 
-    <div class="tituloVirtudes">
-        NUESTRAS VIRTUDES
-    </div>
-    <div class="virtudesAgencia">
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-solid fa-shield"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Pasión por Fiat</p>
-                <p>Una virtud fundamental es la pasión y el entusiasmo por la marca Fiat. Mostrar un amor genuino por los vehículos Fiat y su herencia italiana puede crear una conexión emocional con los clientes que comparten esa pasión.</p>
-            </div>
-        </div>
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-solid fa-users"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Conocimiento Profundo</p>
-                <p>Contar con un equipo altamente capacitado y experto en los modelos de Fiat, sus características, tecnología y rendimiento puede ser una virtud importante. Esto permite brindar a los clientes un asesoramiento sólido y personalizado.</p>
-            </div>
-        </div>
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-regular fa-handshake"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Atencion al Cliente</p>
-                <p>Proporcionar un servicio al cliente excepcional es esencial. Esto incluye una atención cordial, respuestas rápidas a las preguntas y preocupaciones de los clientes, así como un enfoque en la satisfacción del cliente en cada etapa de la experiencia de compra.</p>
-            </div>
-        </div>
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-solid fa-car"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Variedad de Ofertas</p>
-                <p>Ofrecer una amplia gama de opciones, desde vehículos nuevos hasta usados, financiamiento personalizado, leasing y servicios postventa, permite a los clientes encontrar exactamente lo que necesitan en un solo lugar.</p>
-            </div>
-        </div>
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-solid fa-eye"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Integridad y Transparencia</p>
-                <p>La honestidad y la transparencia en todas las transacciones son virtudes clave. Los clientes valoran una relación de confianza y esperan recibir información precisa y clara sobre precios, condiciones y opciones de financiamiento.</p>
-            </div>
-        </div>
-        <div class="virtud">
-            <div class="cajaIconoVirtur">
-                <i class="fa-solid fa-pen-nib"></i>
-            </div>
-            <div class="textoVirtud">
-                <p class="tituloVirtud">Calidad</p>
-                <p>Garantizar la calidad en cada aspecto del negocio, desde la selección de vehículos hasta el servicio de mantenimiento, es esencial. Utilizar piezas y accesorios originales de Fiat y contar con técnicos certificados puede demostrar un compromiso inquebrantable con la calidad.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Fin de Presentacion empresa -->
-
-
-    <!-- Empleados -->
-    <div class="tituloConoceModelos">
-        NUESTRO EQUIPO DE PROFESIONALES
-    </div>
-
-    <div class="cajaEmpleados">
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-1.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Juancho Tacorta</h5>
-                    <p class="m-0">Vendedor</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-2.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Veronica Lopez</h5>
-                    <p class="m-0">Gerente</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-3.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Rocco Sifreddi</h5>
-                    <p class="m-0">Presidente</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-4.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Analisa Meltrozo</h5>
-                    <p class="m-0">Compras</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-1.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Juancho Tacorta</h5>
-                    <p class="m-0">Vendedor</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-2.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Veronica Lopez</h5>
-                    <p class="m-0">Gerente</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-3.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Rocco Sifreddi</h5>
-                    <p class="m-0">Presidente</p>
-                </div>
-            </div>
-        </div>
-        <div class="empleado">
-            <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/testimonial-4.jpg" alt="">
-                </div>
-                <div class="text-center py-4">
-                    <h5 class="text-truncate">Analisa Meltrozo</h5>
-                    <p class="m-0">Compras</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <br>
+    <br>
+    <br>
 
     <!-- Services Start -->
     <div class="container-fluid pt-5 pb-3">
         <div class="container">
-            <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Nuestros Servicios</h6>
-            <h1 class="display-4 text-center mb-5">Que ofrecemos...</h1>
             <div class="row">
                 <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
@@ -339,48 +259,66 @@
     </div>
     <!-- Services End -->
 
-
-    <!-- Features Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-0 my-lg-5 pt-0 pt-lg-5 pr-lg-5">
-                    <h6 class="text-secondary text-uppercase font-weight-medium mb-3">Somos distintos</h6>
-                    <h1 class="mb-4">¿Por qué elegirnos?</h1>
-                    <p>Porque estamos aquí para hacer que cada paso de su viaje hacia su FIAT sea inolvidable. Desde nuestra cuidadosa selección del vehículo hasta nuestro servicio al cliente de primera clase, descubrirá que somos la elección evidente para su próxima adquisición automotriz. En <strong>SG Automibile</strong>, hacemos que sus sueños sobre cuatro ruedas se hagan realidad.</p>
-                    <div class="row">
-                        <div class="col-sm-6 mb-4">
-                            <h1 class="text-secondary" data-toggle="counter-up">10</h1>
-                            <h5 class="font-weight-bold">Años de Experiencia</h5>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <h1 class="text-secondary" data-toggle="counter-up">250</h1>
-                            <h5 class="font-weight-bold">Asesores Especialistas</h5>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <h1 class="text-secondary" data-toggle="counter-up">250</h1>
-                            <h5 class="font-weight-bold">Clientes Felices</h5>
-                        </div>
-                        <div class="col-sm-6 mb-4">
-                            <h1 class="text-secondary" data-toggle="counter-up">9550</h1>
-                            <h5 class="font-weight-bold">Planes vendidos</h5>
-                        </div>
-                    </div>
+    <div class="botonesContacto">
+        <div class="col-md-4">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                    <i class="fa fa-3x fa-brands fa-whatsapp text-secondary"></i>
                 </div>
-                <div class="col-lg-5">
-                    <div class="d-flex flex-column align-items-center justify-content-center h-100 py-5 px-3" style="background: rgb(128, 128, 128); border-radius: 5px;">
-                        <i class="fa-solid fa-trophy" style="color: white"></i>
-                        <h1 class="display-1 text-white mb-3">10+</h1>
-                        <h1 class="text-white m-0" style="text-align: center">Años de Experiencia</h1>
-                    </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                    <i class="fa fa-2x fa-solid fa-envelope text-secondary"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                    <i class="fa fa-2x fa-solid fa-phone text-secondary"></i>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Features End -->
 
-
-    
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                        <!-- MODELOS -->
+                    <div class="tituloConoceModelos">
+                        CONTACTANOS
+                    </div>
+                    <br>
+                    <form action="https://formsubmit.co/iblancolopez73@gmail.com" method="post"> <!-- msj al correo electrónico -->
+                        <input type="text" placeholder="🙂 Nombre y Apellido" name="nombre">
+                        <input type="text" placeholder="📞 Teléfono o Whatsapp" name="telefono">
+                        <input type="text" placeholder="&#128231 Correo Electrónico" name="email">
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="💬 ¿Cómo podemos ayudarte?" name="mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button> 
+                    </form>
+                </div>
+                
+                <!-- Mapa  -->
+                <div class="col">
+                    <div class="tituloConoceModelos">
+                        NUESTRAS OFICINAS
+                    </div>
+                    <br>
+                    <div class="local">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.481948806905!2d-58.709123600000005!3d-34.5413509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0df925fd73%3A0x6a1f87cd280f4d3a!2sBelgrano%20985%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1698024441043!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
@@ -456,6 +394,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Libreria flickyty para carrouseles -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+
+    <!-- lightgallery plugins -->
+    <script src="js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery')); 
+    </script>
 </body>
 
 </html>
