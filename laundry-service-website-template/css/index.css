@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    color: #9b1c43;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    margin-top: 3%;
+    color: #9b1c43;
+    text-shadow: -1px 4px 3px rgba(0,0,0,0.48);
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin-top: 3%;
+    color: #9b1c43;
+}
+h4{
+    
+}
+.carousel-caption{
+    bottom: 45%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align:start;
+    left: 10%;
+}
+.subtituloCarrousel{
+    font-size:20px;
+}
+.tituloCarousel{
+    font-size: 65px;
+    font-weight:bold;
+}
+.botonCarousel button{
+    color: #fff;
+    background-color: #343a40;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+.padreModelos{
+    display: flex;
+    width: 70%;
+    margin: 3% auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.modelo{
+    border: #ced4da solid 1px;
+    margin: 10px;
+    cursor: pointer; /* mouse en modo hipervinculo */
+    display: flex;
+    flex-direction: column;
+}
+.cajaImagenaAumentar{
+    width: 400px;
+    height: 250px;
+    cursor: pointer; /* mouse en modo hipervinculo */
+    overflow: hidden; /* la imagen no se sale de su caja al expandirse con el hover */
+}
+.modelo:hover .imagenAumentada{  /* agranda la imagen al hacer hover sobre la caja modelo */
+    transform: scale(1.3); 
+    cursor: pointer; /* mouse en modo hipervinculo */
+}
+.imagenAumentada{
+    transition: .5s ease-in-out;
+}
+.cajaImagenaAumentar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* no achica la imagen, sino que la pasa por arriba */
+}
+.botonModelo{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;  
+    width: 50%;
+    transform: skew(-15deg);
+}
+.botonModelo button{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.modelo:hover .botonModelo button{
+    background: #9b1c43;
+}
+.sobreNosotrosIndex{
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    align-items: center;
+    width: 100%;
+    padding:0 auto;
+}
+.logoNosotrosIndex{
+    width: 450px;
+}
+.logoNosotrosIndex img{
+    width: 100%;
+}
+.leeIndex{
+    color: #9b1c43;
+    font-weight: bold;
+}
+.somosIndex{
+    font-size:40px;
+    color: #9b1c43;
+    font-weight: bold;
+}
+.comercializadoraIndex{
+    font-size:25px;
+    font-style: italic;
+}
+.textosNosotrosIndex{
+    background-color: yellow;
+    width: 35%;
+    padding-left: 2%;
+}
+.somosIndexTexto{
+    font-size: 18px
+}
