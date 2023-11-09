@@ -45,6 +45,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Inter:wght@600&family=Krona+One&family=Tomorrow&display=swap" rel="stylesheet">
 
         <!-- Vinculacion con Bootstrap  y w3schools -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -58,6 +59,7 @@
     
         <!-- Vinculacion con hojas de estilos -->
         <link href="css/header.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
         <link href="css/lightgallery.css" rel="stylesheet">
         <link href="css/modeloAuto.css" rel="stylesheet">
         <link href="css/nosotros.css" rel="stylesheet">
@@ -66,7 +68,7 @@
         
     </head>
   
-    <header>
+    <header class="fixed-top">
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
@@ -272,8 +274,223 @@
         </div>
 
         <h3>NUESTROS SERVICIOS</h3>
-        <h1>QUE OFRECEMOS...</h1>
+        <h2 style="margin-top: 0">QUÉ OFRECEMOS</h2>
 
+        <div class="cajaPadreOfrecemos">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <div class="textoServicio">
+                    Tasa 0% durante todo el plan
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="textoServicio">
+                    Cuotas sin impuesto Dolar
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="textoServicio">
+                    Tomamos tu usado
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="textoServicio">
+                    Entrega con el 20% del valor
+                </div>
+            </div>
+        </div>
+
+        <div class="cajaPadreExperiencia">
+            <div class="cajaSomosDistintos">
+                <div class="subtituloDistintos">SOMOS DISTINTOS</div>
+                <div class="tituloDistintos">¿POR QUE ELEGIRNOS?</div>
+                <div class="textoDistintos">Porque estamos aquí para hacer que cada paso de su viaje hacia su FIAT sea inolvidable. Desde nuestra cuidadosa selección del vehículo hasta nuestro servicio al cliente de primera clase, descubrirá que somos la elección evidente para su próxima adquisición automotriz. En <strong>SG Automibile</strong>, hacemos que sus sueños sobre cuatro ruedas se hagan realidad.</div>
+                <div class="row">
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">10</div>
+                        <div class="tituloContador">Años de Experiencia</div>                        
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">20</div>
+                        <div class="tituloContador">Asesores Especialistas</div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">500</div>
+                        <div class="tituloContador">Clientes Felices</div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                         <div class="contador" data-toggle="counter-up">9550</div>
+                        <div class="tituloContador">Planes vendidos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cajaTrofeo">
+                <i class="fa-solid fa-trophy"></i>
+                <div class="numeroAños">10+</div>
+                <div class="textoAños">
+                    <div>Años de</div>
+                    <div>Experiencia</div>
+                </div>
+            </div>
+        </div>
+
+        <h3>PROCESO DE COMPRA</h3>
+        <h2 style="margin-top: 0">COMO TRABAJAMOS</h2>
+
+        <div class="cajaProcesosPadre">
+            <div class="cajaProceso">
+                <div class="numeroProceso">1</div>
+                <div class="descripcionProceso">Comunicación con el Cliente</div>
+            </div>
+            <div class="cajaProceso">
+                <div class="numeroProceso">2</div>
+                <div class="descripcionProceso">Recomendación de Planes</div>
+            </div>
+            <div class="cajaProceso">
+                <div class="numeroProceso">3</div>
+                <div class="descripcionProceso">Inicio de Trámites</div>
+            </div>
+            <div class="cajaProceso">
+                <div class="numeroProceso">4</div>
+                <div class="descripcionProceso">Entrega de la Unidad</div>
+            </div>
+        </div>
+
+        <div class="subtituloTestimonios">TESTIMONIOS</div>
+        <h2 style="margin-top: 0; color: black;">LO QUE DICEN NUESTROS CLIENTES</h2>
+
+        <div class="carrouselTestimonios">
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <img class="imagenCliente" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <div class="cajaTextoTextimonio">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <footer>
+            <div class="padreColumnasFooter">
+                <div class="columnaFooter">
+                    <div class="logoFooter">SG<span class="text-white" style="font-size:15px">AUTOMOBILE</span></div>
+                    <img src="img/fiat-logo.png" style="width:100px">
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+                <div class="columnaFooter">
+                    <p class="tituloFooter">CONTACTO</p>
+                    <p>Lunes a Viernes de 09:00 a 19:00 hs</a></p>
+                    <p><i class="fa fa-map-marker-alt"></i> Belgrano 985, San Miguel, Bs.As.</p>
+                    <p><i class="fa fa-phone-alt"></i> +54 11-3388-6950</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                </div>
+    
+                <div class="columnaFooter">
+                    <p class="tituloFooter">SECCIONES</p>
+                    <p><a href="index.html"><i class="fa fa-angle-right mr-2"></i> Home</a></p>
+                    <p><a href="modelos"><i class="fa fa-angle-right mr-2"></i> Nuestros Modelos</a></p>
+                    <p><a href="clientes.html"><i class="fa fa-angle-right mr-2"></i> Nuestros Clientes</a></p>
+                    <p><a href="preguntas.html"><i class="fa fa-angle-right mr-2"></i> Preguntas Frecuentes</a></p>
+                    <p><a href="ubicacion.html"><i class="fa fa-angle-right mr-2"></i> Ubicación y Contacto</a></p>
+                </div>
+            </div>
+    
+            <div class="cajaDesarrollador">
+                <div>© <span>SG Automobile</span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
+            </div>
+        </footer>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+
+        <!-- Carrousel -->
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Contador -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    
     </body>
 
 </html>

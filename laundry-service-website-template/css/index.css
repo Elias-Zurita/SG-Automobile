@@ -134,3 +134,192 @@ h4{
 .somosIndexTexto{
     font-size: 18px
 }
+.cajaPadreOfrecemos{
+    border: blue solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajaServicio{
+    background-color: #343a40;
+    color: #fff;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+    padding: 50px 25px;
+    transition: ease-in-out 0.3s
+}
+.iconoServicio{
+    color: #9b1c43;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.textoServicio{
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.cajaServicio:hover{
+    background: #9b1c43;
+    box-shadow: 0 0 30px #CCCCCC;
+    transform: translateY(-10px); 
+}
+.cajaPadreExperiencia{
+    margin: 80px auto;
+    border: blue solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+}
+.cajaTrofeo{
+    background:rgb(128, 128, 128);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px
+}
+.cajaTrofeo i{
+    font-size:180px
+}
+.numeroAños{
+    font-size: 80px;
+    font-weight: bold;
+}
+.textoAños{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cajaSomosDistintos{
+    border: violet solid 2px;
+    width: 600px;
+    margin-right: 50px;
+}
+.subtituloDistintos{
+    color:#9b1c43;
+    font-weight: bold;
+}
+.tituloDistintos{
+    color:#9b1c43;
+    font-size: 35px;
+    font-weight: bold;
+}
+.textoDistintos{
+    margin: 10px 0 20px 0;
+}
+.contador{
+    border: red solid 2px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #9b1c43
+}
+.tituloContador{
+    font-weight: bold;
+    font-size: 18px;
+}
+.cajaProcesosPadre{
+    border: goldenrod solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.cajaProceso{
+    border: brown solid 2px;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+.numeroProceso{
+    font-size: 80px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border: 1px solid #dee2e6 !important;
+    width: 150px;
+    height: 150px;
+    border-width: 15px !important;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.descripcionProceso{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.subtituloTestimonios{
+    font-family: "Open Sans", sans-serif;
+    color: #9b1c43;
+    text-align: center;
+    margin-top: 50px;
+}
+.carrouselTestimonios{
+    object-fit: cover;
+    width: 1100px;
+    margin: 0 auto;
+    border: blue solid 1px;
+}
+.testimonio{
+    text-align: center;
+    position: relative;
+}
+.imagenCliente img{
+    width: 100px; 
+    height: 100px;
+}
+.imagenCliente{
+    position: absolute;
+    right: 35%;
+    bottom: 85%;
+}
+.cajaTextoTextimonio{
+    height: 250px;
+    display: flex;
+    padding-top: 27px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.testimonial-carousel .owl-item.center .cajaTextoTextimonio {
+    box-shadow: 0 0 30px #CCCCCC;
+  }
+.testimonial-carousel .owl-dots {
+    margin-top: 25px;
+    text-align: center;
+}
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: #343a40;
+    transition: .5s;
+}
+.testimonial-carousel .owl-dot.active {  /* boton de navegacion activo */
+    width: 40px;
+    background: #9b1c43 !important;;
+}
+.testimonial-carousel .owl-item.center .testimonial-text {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+@media(max-width:1100px){
+    .carrouselTestimonios{
+        width: 80%;
+    }
+}
