@@ -1,27 +1,11 @@
-ROYAL:
-- CONTACT US
-- CAROUSEL DE MARCAS(reemplazarlo por fotos de los autos)
+- Info de cada auto (Giamma tiene)
 
-SECCION AUTO:
-tab gallery (https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp) con fotos del auto
-otra opcion es que se agranden (https://www.w3schools.com/howto/howto_js_lightbox.asp)
+- efecto al hacer hover sobre las imagenes que abren la galeria
 
-======================================================
+- hipervinculo en carrousel de modelos al auto
 
-Usar plantillas
-Vincular instagram con HTML
+- mail al que envie los msj del contacto 
 
-Sección nuestros clientes
+- telefono para vincular con whats app
 
-Sección nosotros
-(Carrousel oficinas)
-
-Sección con info de cada auto (Giamma tiene)
-El carrousel con colores de autos Fiat autodrive tiene
-Sacar de ahí el msj de WhatsApp predeterminado
-Robar de Fiat autodrive
-
-Sección ubicación y contacto
-
-Cuenta regresiva X cosa de seba
-Acordeón Giamma tiene uno
+- preguntas frecuentes: Acordeón Giamma tiene uno
