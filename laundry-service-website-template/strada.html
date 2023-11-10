@@ -1,414 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>SG Automobile</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <head>
+                    
+        <!-- META DE SOFI A CAMBIAAAAAAAAAAAAR!!!!!! -->
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+        <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
+        <meta name="viewport"content="width=device-width"> <!-- Sitio responsive -->
+        <meta name="language" content="spanish"> <!-- Sitio web en español -->
+        <meta name="author" content="Elias Zurita"> <!-- Diseñado por... -->
+        <meta name="audience" content="all"> <!-- Google sabra que no tiene restricciones de audiencia -->
+        <meta name="distribution" content="global"> <!-- El sitio web no tiene restricciones geograficas para ser vista -->
+        <meta name="description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!! Sofia Sanz Fitness"> <!-- Descripcion que aparece en el buscador de google. NO debe superar los 150 caracteres -->
+        <meta name="keywords" content="entrenamiento, sanz, fitness"> <!-- Palabras claves que usan motores de busquedas menos google. No deben ser mas de 3 -->
+        <meta name="googlebot-image" content="all"> <!-- Indexa todas los imagenes del sitio a los motores de busqueda de google. Con la etiqueta alt en las imagenes funciona mejor -->
+        <meta name="robots" content="index, all, follow"> <!-- Indexa todos los contenidos a los motores de busqueda de google -->
+        <meta name="googlebot" content="all, index, follow"> <!-- Indexa todos los rastreadores de google -->
+        <meta name="yahoobot" content="all, index, follow"> <!-- Indexa todos los rastreadores de yahoo -->
+        <meta name="mozilla2.0" content="index, follow"> <!-- Indexa todos los rastreadores de mozilla -->
+        <meta name="msnbot" content="all, index, follow"> <!-- Indexa todos los rastreadores de Microsoft -->
+        <meta name="category" content="fitness"> <!-- Categoria a la que pertenece la pagina -->
+        <meta itemprop="telephone" content="+376663918"> <!-- Al buscar el telefono en google aparecera para que desde un smartphone llame -->
+        <meta property="og:title" content="Sofia Sanz Fitness - Entrenamientos Personalizados"> <!-- Como aparecera cuando se comparta el sitio web en facebook -->
+        <meta property="og:description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!!"> <!-- La descripcion que aparecera cuando se comparta el sitio en facebook -->
+        <meta property="og:image" content="https://sofiasanzfitness.com/images/banners/IMG_0451%20-%20copia.JPG"> <!-- La imagen que va a aparecer en facebook al compartir el sitio web -->
+        <meta property="og:url" content="https://sofiasanzfitness.com/"> <!-- URL que se usara como enlace cuando se comparta el sitio web -->
+        <meta name="twitter:title" content="Sofia Sanz Fitness - Entrenamientos Personalizados"> <!-- Titulo cuando se comparta el sitio web en Twitter -->
+        <meta name="twitter:description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!!"> <!-- La descripcion que aparecera cuando se comparta el sitio en Twitter -->
+        <meta name="twitter:image" content="https://sofiasanzfitness.com/images/banners/IMG_0451%20-%20copia.JPG"> <!-- La imagen que va a aparecer en Twitter al compartir el sitio web -->
+        <meta name="twitter:card" content="summary_large_image"> <!-- La imagen que va a aparecer en Twitter va a ser grande -->
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Inter:wght@600&family=Krona+One&family=Tomorrow&display=swap" rel="stylesheet">
+        <!-- Pestaña -->
+        <title>SG Automobile</title>
+        <link rel="shortcut icon" href="img/logoNuevo.png">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d4ee5988c7.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Inter:wght@600&family=Krona+One&family=Tomorrow&display=swap" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- Vinculacion con Bootstrap  y w3schools -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://kit.fontawesome.com/d4ee5988c7.js" crossorigin="anonymous"></script>
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/ubicacion.css" rel="stylesheet">
-    <link href="css/modeloAuto.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
-    
-    <!-- Libreria flickyty para carrouseles -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
-</head>
+        <!-- Librerias -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> <!-- Carrousel -->
+        <link type="text/css" rel="stylesheet" href="css/lightgallery.css"> <!-- Galeria de fotos -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> <!-- Carrousel -->
 
-<body>
-   
+        <!-- Vinculacion con hojas de estilos -->
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="css/lightgallery.css" rel="stylesheet">
+        <link href="css/modeloAuto.css" rel="stylesheet">
+        <link href="css/nosotros.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/ubicacion.css" rel="stylesheet">
+        
+    </head>
 
-    <!-- Header Start -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5 text-uppercase text-primary"><img src="img/logoNuevo.png" class="logoHeader"></h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Toggle navigation">
-                <!-- Burger Button WH3S -->
-                <div class="container" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+    <header class="fixed-top">
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- Boton de whats app para todas las vistas -->
+        <a href="https://wa.me/5491126878269?text=" target="_blank" class="btn-wsp"><i class="fa-brands fa-whatsapp"></i></a>
+
+        <div class="cuentaRegresiva">
+            <div class="countdown" id="countdown">
+                <div class="time">
+                    OFERTAS DISPONIBLES POR &nbsp
+                    <div class="unidadDeMedida" id="hours"></div>
+                    <div class="unidadEscrita"> hs</div>
                 </div>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nuestros Modelos</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="abarth.html" class="dropdown-item">Abarth</a>
-                            <a href="argo.html" class="dropdown-item">Argo</a>
-                            <a href="cronos.html" class="dropdown-item">Cronos</a>
-                            <a href="mobi.html" class="dropdown-item">Mobi</a>
-                            <a href="pulse.html" class="dropdown-item">Pulse</a>
-                            <a href="toro.html" class="dropdown-item">Toro</a>
-                            <a href="ducato.html" class="dropdown-item">Ducato</a>
-                            <a href="fiorino.html" class="dropdown-item">Fiorino</a>
-                            <a href="strada.html" class="dropdown-item">Strada</a>
-                        </div>
+                <div class="time">
+                    <div class="unidadDeMedida" id="minutes"></div>
+                    <div class="unidadEscrita"> min</div>
+                </div>
+                <div class="time">
+                    <div class="unidadDeMedida" id="seconds"></div>
+                    <div class="unidadEscrita"> seg</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logoHeader">
+                    <img src="img/logoNuevo.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Burger Button WH3S -->
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
                     </div>
-                    <a href="price.html" class="nav-item nav-link">Preguntas Frecuentes</a>
-                    <a href="clientes.html" class="nav-item nav-link">Nuestros Clientes</a>
-                    <a href="ubicacion.html" class="nav-item nav-link">Ubicación y Contacto</a>
-                    <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Modelos</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="abarth.html" class="dropdown-item">Abarth</a></li>
+                                <li><a href="argo.html" class="dropdown-item">Argo</a></li>
+                                <li><a href="cronos.html" class="dropdown-item">Cronos</a></li>
+                                <li><a href="mobi.html" class="dropdown-item">Mobi</a></li>
+                                <li><a href="pulse.html" class="dropdown-item">Pulse</a></li>
+                                <li><a href="toro.html" class="dropdown-item">Toro</a></li>
+                                <li><a href="ducato.html" class="dropdown-item">Ducato</a></li>
+                                <li><a href="fiorino.html" class="dropdown-item">Fiorino</a></li>
+                                <li><a href="strada.html" class="dropdown-item">Strada</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="price.html" class="nav-link">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="clientes.html" class="nav-link">Nuestros Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ubicacion.html" class="nav-link">Ubicación y Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="nosotros.html" class="nav-link">Nosotros</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-    </div>
 
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
-    <!-- Header End -->
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+    </header>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+    <body>
+    
+        <!--  CAROUSEL BOOTSTRAP -->
+        <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/strada/stradaCarrousel1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column justify-content-center">
-                        <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
-                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="img/strada/stradaCarrousel1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="subtituloCarrousel"></div>
+                        <div class="tituloCarousel">STRADA</div>
+                        <div class="botonCarousel">
+                            <button class=""><a href="">QUIERO MI FIAT</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/strada/stradaCarrousel3.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column justify-content-center">
-                        <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                            <h4 class="text-white text-uppercase mb-md-3">500 TURISMO</h4>
-                            <h1 class="display-3 text-white mb-md-4">ABARTH</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">QUIERO MI FIAT</a>
+            
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="img/strada/stradaCarrousel3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="subtituloCarrousel"></div>
+                        <div class="tituloCarousel">STRADA</div>
+                        <div class="botonCarousel">
+                            <button class=""><a href="">QUIERO MI FIAT</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-secondary" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- MODELOS -->
+        <div class="tituloModelo">
+            STRADA
+        </div>
+
+        <div id="lightgallery" class="cajaImagenesModelos">
+            <a href="img/strada/strada2.jpg">
+                <img src="img/strada/strada2.jpg"/>
             </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-secondary" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
+            <a href="img/strada/strada3.jpg">
+                <img src="img/strada/strada3.jpg"/>
+            </a>
+            <a href="img/strada/strada4.jpeg">
+                <img src="img/strada/strada4.jpeg"/>
+            </a>
+            <a href="img/strada/strada5.jpeg">
+                <img src="img/strada/strada5.jpeg"/>
+            </a>
+            <a href="img/strada/strada6.jpeg">
+                <img src="img/strada/strada6.jpeg"/>
+            </a>
+            <a href="img/strada/strada7.jpeg">
+                <img src="img/strada/strada7.jpeg"/>
+            </a>
+            <a href="img/strada/strada8.jpeg">
+                <img src="img/strada/strada8.jpeg"/>
             </a>
         </div>
-    </div>
-    <!-- Carousel End -->
 
-    <!-- MODELOS -->
-    <div class="tituloModelo">
-        STRADA
-    </div>
+        <div class="infoAuto">
+            <p>Fiat 500 Abarth 595 Turismo es la mayor expresión de los princípios de rendimento, artesanía, diseño italiano y actualización técnica que caracteriza a la marca con la insignia del escorpión.</p>
+            <p>Su contenido técnico es superior, com los discos de freno autoventilados, suspensión trasera Koni con tecnología FSD, butacas exclusivas, direción asistida eléctrica dual drive y escape exclusivo Abarth.</p>
+            <p>Internamente todos los detalles remiten a la deportividad a partir de equipamientos únicos que resaltan el espíritu Abarth, tales como los asientos deportivos Abarth, panel de instrumentos con pantalla de 7" TFT, sistema de climatización automático y volante de cuero deportivo con visor complementan los interiores.</p>
+        </div>
 
-    <div id="lightgallery" class="cajaImagenesModelos">
-        <a href="img/strada/strada2.jpg">
-            <img src="img/strada/strada2.jpg"/>
-        </a>
-        <a href="img/strada/strada3.jpg">
-            <img src="img/strada/strada3.jpg"/>
-        </a>
-        <a href="img/strada/strada4.jpeg">
-            <img src="img/strada/strada4.jpeg"/>
-        </a>
-        <a href="img/strada/strada5.jpeg">
-            <img src="img/strada/strada5.jpeg"/>
-        </a>
-        <a href="img/strada/strada6.jpeg">
-            <img src="img/strada/strada6.jpeg"/>
-        </a>
-        <a href="img/strada/strada7.jpeg">
-            <img src="img/strada/strada7.jpeg"/>
-        </a>
-        <a href="img/strada/strada8.jpeg">
-            <img src="img/strada/strada8.jpeg"/>
-        </a>
-    </div>
+        <div class="otrosModelos">
+            Nuestros Modelos
+        </div>
 
-    <div class="infoAuto">
-        <p>Fiat 500 Abarth 595 Turismo es la mayor expresión de los princípios de rendimento, artesanía, diseño italiano y actualización técnica que caracteriza a la marca con la insignia del escorpión.</p>
-        <p>Su contenido técnico es superior, com los discos de freno autoventilados, suspensión trasera Koni con tecnología FSD, butacas exclusivas, direción asistida eléctrica dual drive y escape exclusivo Abarth.</p>
-        <p>Internamente todos los detalles remiten a la deportividad a partir de equipamientos únicos que resaltan el espíritu Abarth, tales como los asientos deportivos Abarth, panel de instrumentos con pantalla de 7" TFT, sistema de climatización automático y volante de cuero deportivo con visor complementan los interiores.</p>
-    </div>
+        <!-- Flickity HTML init -->
+        <div class="cajaCarouselFlickity" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": true}'>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/abarth/abarth1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">ABARTH</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/argo/argoo1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">ARGO</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/cronos/cronos1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">CRONOS</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/mobi/mobi1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">MOBI</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/pulse/pulse1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">PULSE</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/toro/toro1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">TORO</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/ducato/ducato1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">DUCATO</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/fiorino/fiorino1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">FIORINO</div>
+            </div>
+            <div class="autoCarouselFlickity">
+                <div class="imagenAutoCarousel">
+                    <img src="img/strada/strada1.png" alt="" class="imagenAumentada">
+                </div>
+                <div class="nombreAuto">STRADA</div>
+            </div>
+        </div>
 
-    <div class="otrosModelos">
-        Nuestros Modelos
-    </div>
+        <br>
+        <br>
+        <br>
 
-    <!-- Flickity HTML init -->
-    <div class="cajaCarouselFlickity" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": true}'>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/abarth/abarth1.png" alt="" class="imagenAumentada">
+        <div class="cajaPadreOfrecemos">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <div class="textoServicio">
+                    Tasa 0% durante todo el plan
+                </div>
             </div>
-            <div class="nombreAuto">ABARTH</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/argo/argoo1.png" alt="" class="imagenAumentada">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="textoServicio">
+                    Cuotas sin impuesto Dolar
+                </div>
             </div>
-            <div class="nombreAuto">ARGO</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/cronos/cronos1.png" alt="" class="imagenAumentada">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="textoServicio">
+                    Tomamos tu usado
+                </div>
             </div>
-            <div class="nombreAuto">CRONOS</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/mobi/mobi1.png" alt="" class="imagenAumentada">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="textoServicio">
+                    Entrega con el 20% del valor
+                </div>
             </div>
-            <div class="nombreAuto">MOBI</div>
         </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/pulse/pulse1.png" alt="" class="imagenAumentada">
-            </div>
-            <div class="nombreAuto">PULSE</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/toro/toro1.png" alt="" class="imagenAumentada">
-            </div>
-            <div class="nombreAuto">TORO</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/ducato/ducato1.png" alt="" class="imagenAumentada">
-            </div>
-            <div class="nombreAuto">DUCATO</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/fiorino/fiorino1.png" alt="" class="imagenAumentada">
-            </div>
-            <div class="nombreAuto">FIORINO</div>
-        </div>
-        <div class="autoCarouselFlickity">
-            <div class="imagenAutoCarousel">
-                <img src="img/strada/strada1.png" alt="" class="imagenAumentada">
-            </div>
-            <div class="nombreAuto">STRADA</div>
-        </div>
-    </div>
 
-    <br>
-    <br>
-    <br>
+        <div class="botonesContacto">
+            <div class="col-md-4">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                        <i class="fa fa-3x fa-brands fa-whatsapp text-secondary"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                        <i class="fa fa-2x fa-solid fa-envelope text-secondary"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
+                        <i class="fa fa-2x fa-solid fa-phone text-secondary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Services Start -->
-    <div class="container-fluid pt-5 pb-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                            <i class="fas fa-percentage"></i>
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                            <!-- MODELOS -->
+                        <div class="tituloConoceModelos">
+                            CONTACTANOS
                         </div>
-                        <h4 class="font-weight-bold m-0">Tasa 0% durante todo el plan</h4>
+                        <br>
+                        <form action="https://formsubmit.co/iblancolopez73@gmail.com" method="post"> <!-- msj al correo electrónico -->
+                            <input type="text" placeholder="🙂 Nombre y Apellido" name="nombre">
+                            <input type="text" placeholder="📞 Teléfono o Whatsapp" name="telefono">
+                            <input type="text" placeholder="&#128231 Correo Electrónico" name="email">
+                            <textarea name="mensaje" cols="30" rows="10" placeholder="💬 ¿Cómo podemos ayudarte?" name="mensaje"></textarea>
+                            <button>
+                                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button> 
+                        </form>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                            <i class="fas fa-hand-holding-usd"></i>
+                    
+                    <!-- Mapa  -->
+                    <div class="col">
+                        <div class="tituloConoceModelos">
+                            NUESTRAS OFICINAS
                         </div>
-                        <h4 class="font-weight-bold m-0">Cuotas sin impuesto Dolar</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                            <i class="fas fa-key"></i>
+                        <br>
+                        <div class="local">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.481948806905!2d-58.709123600000005!3d-34.5413509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0df925fd73%3A0x6a1f87cd280f4d3a!2sBelgrano%20985%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1698024441043!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <h4 class="font-weight-bold m-0">Tomamos tu usado</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                            <i class="fas fa-hands-helping"></i>
-                        </div>
-                        <h4 class="font-weight-bold m-0">Entrega con el 20% del valor</h4>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Services End -->
+        </section>
 
-    <div class="botonesContacto">
-        <div class="col-md-4">
-            <div class="d-flex flex-column align-items-center justify-content-center text-center">
-                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
-                    <i class="fa fa-3x fa-brands fa-whatsapp text-secondary"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex flex-column align-items-center justify-content-center text-center">
-                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
-                    <i class="fa fa-2x fa-solid fa-envelope text-secondary"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex flex-column align-items-center justify-content-center text-center">
-                <div class="d-inline-flex align-items-center justify-content-center bg-white border border-light shadow rounded-circle mb-4" style="width: 100px; height: 100px; border-width: 15px !important;">
-                    <i class="fa fa-2x fa-solid fa-phone text-secondary"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                        <!-- MODELOS -->
-                    <div class="tituloConoceModelos">
-                        CONTACTANOS
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h1 class="text-secondary mb-3 logoFooter">SG<span class="text-white" style="font-size:15px">AUTOMOBILE</span></h1>
+                    <img src="img/fiat-logo.png" style="width:100px">
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <br>
-                    <form action="https://formsubmit.co/iblancolopez73@gmail.com" method="post"> <!-- msj al correo electrónico -->
-                        <input type="text" placeholder="🙂 Nombre y Apellido" name="nombre">
-                        <input type="text" placeholder="📞 Teléfono o Whatsapp" name="telefono">
-                        <input type="text" placeholder="&#128231 Correo Electrónico" name="email">
-                        <textarea name="mensaje" cols="30" rows="10" placeholder="💬 ¿Cómo podemos ayudarte?" name="mensaje"></textarea>
-                        <button>
-                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
-                            <span class="overlay"></span>
-                        </button> 
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-white mb-4">Contacto</h4>
+                    <p>Lunes a Viernes de 09:00 a 19:00 hs.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Belgrano 985, San Miguel, Bs.As.</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+54 11-3388-6950</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-white mb-4">Secciones</h4>
+                    <div class="d-flex flex-column justify-content-start footer">
+                        <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                        <a class="text-white mb-2" href="modelos"><i class="fa fa-angle-right mr-2"></i>Nuestros Modelos</a>
+                        <a class="text-white mb-2" href="clientes.html"><i class="fa fa-angle-right mr-2"></i>Nuestros Clientes</a>
+                        <a class="text-white mb-2" href="preguntas.html"><i class="fa fa-angle-right mr-2"></i>Preguntas Frecuentes</a>
+                        <a class="text-white" href="ubicacion.html"><i class="fa fa-angle-right mr-2"></i>Ubicación y Contacto</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
+                        </div>
+                        <div>
+                            <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
+                        </div>
                     </form>
                 </div>
-                
-                <!-- Mapa  -->
-                <div class="col">
-                    <div class="tituloConoceModelos">
-                        NUESTRAS OFICINAS
-                    </div>
-                    <br>
-                    <div class="local">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.481948806905!2d-58.709123600000005!3d-34.5413509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0df925fd73%3A0x6a1f87cd280f4d3a!2sBelgrano%20985%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1698024441043!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h1 class="text-secondary mb-3 logoFooter">SG<span class="text-white" style="font-size:15px">AUTOMOBILE</span></h1>
-                <img src="img/fiat-logo.png" style="width:100px">
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Contacto</h4>
-                <p>Lunes a Viernes de 09:00 a 19:00 hs.</p>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Belgrano 985, San Miguel, Bs.As.</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+54 11-3388-6950</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Secciones</h4>
-                <div class="d-flex flex-column justify-content-start footer">
-                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="modelos"><i class="fa fa-angle-right mr-2"></i>Nuestros Modelos</a>
-                    <a class="text-white mb-2" href="clientes.html"><i class="fa fa-angle-right mr-2"></i>Nuestros Clientes</a>
-                    <a class="text-white mb-2" href="preguntas.html"><i class="fa fa-angle-right mr-2"></i>Preguntas Frecuentes</a>
-                    <a class="text-white" href="ubicacion.html"><i class="fa fa-angle-right mr-2"></i>Ubicación y Contacto</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white mb-4">Newsletter</h4>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
-                    </div>
-                    <div>
-                        <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
-                    </div>
-                </form>
-            </div>
+        <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-medium" style="font-family: 'Tomorrow', sans-serif;">SG Automobile</a>. Todos los derechos reservados. Diseñado por
+                <a class="text-white font-weight-medium" href="https://elias-zurita.github.io/">Elias Zurita</a>
+            </p>
         </div>
-    </div>
-    <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
-        <p class="m-0 text-center text-white">
-            &copy; <a class="text-white font-weight-medium" style="font-family: 'Tomorrow', sans-serif;">SG Automobile</a>. Todos los derechos reservados. Diseñado por
-            <a class="text-white font-weight-medium" href="https://elias-zurita.github.io/">Elias Zurita</a>
-        </p>
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-    <!-- Boton de whats app para todas las vistas -->
-    <a href="https://wa.me/5491126878269?text=" target="_blank" class="btn-wsp"><i class="fa-brands fa-whatsapp"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        <!-- Boton de whats app para todas las vistas -->
+        <a href="https://wa.me/5491126878269?text=" target="_blank" class="btn-wsp"><i class="fa-brands fa-whatsapp"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 
-    <!-- Libreria flickyty para carrouseles -->
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+        <!-- Libreria flickyty para carrouseles -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
 
-    <!-- lightgallery plugins -->
-    <script src="js/lightgallery.min.js"></script>
-    <script type="text/javascript">
-        lightGallery(document.getElementById('lightgallery')); 
-    </script>
-</body>
+        <!-- lightgallery plugins -->
+        <script src="js/lightgallery.min.js"></script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery')); 
+        </script>
+    
+    </body>
 
 </html>

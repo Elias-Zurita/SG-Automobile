@@ -373,6 +373,12 @@ h4{
     }
     .cajaServicio{
         width: 90%;
+        padding: 25px 25px;
+    }
+    .iconoServicio{
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
     }
     .cajaTrofeo{
         height: 400px;
@@ -413,5 +419,10 @@ h4{
     }
     .descripcionProceso{
         font-size: 18px;
+    }
+    .carrouselTestimonios{
+        margin-left: 15px;
+        margin-right:15px;
+        width: 95%;
     }
 }
