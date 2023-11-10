@@ -1,5 +1,6 @@
 header{
     background: black;
+    font-family: "Poppins", sans-serif;
 }
 a{
     text-decoration: none;
@@ -89,9 +90,8 @@ a{
     align-items: center;
 }
 .time{
-    width: 100px;
     text-align: center;
-    margin: 0 2% 0 2%;
+    margin: 0 5px;
     display: flex;
 }
 .unidadDeMedida{
@@ -106,11 +106,8 @@ a{
 }
 .unidadEscrita{
     color: white;
-    font-weight: bold;
+    font-weight: normal;
 }
-
-
-
 .logoHeader{
     width:70px
 }

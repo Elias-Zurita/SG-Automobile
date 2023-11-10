@@ -139,6 +139,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .cajaServicio{
     background-color: #343a40;
@@ -240,6 +241,7 @@ h4{
     text-align: center;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
 }
 .cajaProceso{
     border: brown solid 2px;
@@ -319,7 +321,97 @@ h4{
     box-shadow: 0 0 30px #CCCCCC;
 }
 @media(max-width:1100px){
+    .sobreNosotrosIndex{
+        flex-direction: column;
+    }
+    .textosNosotrosIndex{
+        margin-top: 30px;
+        width: 550px;
+    }
+    .cajaPadreExperiencia{
+        flex-direction: column;
+    }
+    .cajaSomosDistintos{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+    .cajaTrofeo{
+        width: 90%;
+    }
     .carrouselTestimonios{
         width: 80%;
+    }
+}
+@media(max-width:600px){
+    .cajaServicio{
+        width: 150px;
+        height: 200px;
+    }
+    .iconoServicio{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .textoServicio{
+        font-size: 16px;
+    }
+    .logoNosotrosIndex{
+        width: 100%;
+    }
+    .textosNosotrosIndex{
+        width: 95%;
+    }
+    .cajaImagenaAumentar{
+        width: 350px;
+    }
+}
+@media(max-width:400px){
+    .cajaPadreExperiencia {
+        margin: 50px auto;
+        width: 100%;
+    }
+    .cajaServicio{
+        width: 90%;
+    }
+    .cajaTrofeo{
+        height: 400px;
+    }
+    .cajaTrofeo i{
+        font-size: 135px;
+    }
+    .numeroAños{
+        font-size: 65px;
+    }
+    .textoAños{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .somosIndex{
+        font-size: 30px;
+    }
+    .comercializadoraIndex{
+        font-size: 22px;
+    }
+    .tituloDistintos{
+        font-size: 30px;
+    }
+    .cajaProceso{
+        width:210px;
+        height: 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .numeroProceso{
+        font-size: 60px;
+        width: 115px;
+        height: 115px;
+    }
+    .descripcionProceso{
+        font-size: 18px;
     }
 }
