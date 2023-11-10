@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-                    
+            
         <!-- META DE SOFI A CAMBIAAAAAAAAAAAAR!!!!!! -->
 
         <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
@@ -54,10 +54,8 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://kit.fontawesome.com/d4ee5988c7.js" crossorigin="anonymous"></script>
 
-        <!-- Librerias -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> <!-- Carrousel -->
-        <link type="text/css" rel="stylesheet" href="css/lightgallery.css"> <!-- Galeria de fotos -->
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> <!-- Carrousel -->
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
         <!-- Vinculacion con hojas de estilos -->
         <link href="css/header.css" rel="stylesheet">
@@ -155,44 +153,45 @@
 
     <body>
 
-        <!-- Carousel Start -->
-        <div class="container-fluid p-0">
-            <div id="header-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="imagenCarousel" src="img/vendedores2.jpg" alt="Image">
-                        <div class="carousel-caption d-flex flex-column justify-content-center">
-                            <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                                <h4 class="text-white text-uppercase mb-md-3">NUEVAS OFICINAS</h4>
-                                <h1 class="display-3 text-white mb-md-4">SAN MIGUEL</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">TE ESPERAMOS!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imagenCarousel" src="img/vendedores.jpg" alt="Image">
-                        <div class="carousel-caption d-flex flex-column justify-content-center">
-                            <div class="p-3" style="max-width: 900px; margin-left: 10%;">
-                                <h4 class="text-white text-uppercase mb-md-3">NUEVAS OFICINAS</h4>
-                                <h1 class="display-3 text-white mb-md-4">SAN MIGUEL</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">TE ESPERAMOS!</a>
-                            </div>
+          <!--  CAROUSEL BOOTSTRAP -->
+          <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="img/vendedores2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="subtituloCarrousel">NUEVAS OFICINAS</div>
+                        <div class="tituloCarousel">SAN MIGUEL</div>
+                        <div class="botonCarousel">
+                            <button class=""><a href="">TE ESPERAMOS</button></a>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                    <div class="btn btn-secondary" style="width: 45px; height: 45px;">
-                        <span class="carousel-control-prev-icon mb-n2"></span>
+            
+                <div class="carousel-item" data-bs-interval="6000">
+                    <img src="img/vendedores.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="subtituloCarrousel">NUEVAS OFICINAS</div>
+                        <div class="tituloCarousel">SAN MIGUEL</div>
+                        <div class="botonCarousel">
+                            <button class=""><a href="">TE ESPERAMOS</button></a>
+                        </div>
                     </div>
-                </a>
-                <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                    <div class="btn btn-secondary" style="width: 45px; height: 45px;">
-                        <span class="carousel-control-next-icon mb-n2"></span>
-                    </div>
-                </a>
+                </div>
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <!-- Carousel End -->
 
         <!-- Presentacion empresa -->
         <div class="cajaPresentacionSG">
@@ -200,17 +199,31 @@
                 <img src="img/logoNuevo.png" alt="">
             </div>
             <div class="textoPresentacion">
-                <p>En SG Automobile, somos mucho más que una agencia comercializadora de autos. Somos su puerta de entrada al emocionante mundo de Fiat.</p>
-                <p>Somos apasionados por la marca Fiat. Creemos que los automóviles Fiat representan una combinación perfecta de estilo italiano, innovación tecnológica y rendimiento excepcional. Nuestra pasión por estos vehículos nos impulsa a compartir esta experiencia única con usted.</p>
-                <p>En SG Automobile, nos enorgullece nuestra integridad, transparencia y dedicación a nuestros clientes. Cada compra es una inversión importante, y estamos comprometidos a hacer que su experiencia con nosotros sea excepcional.</p>
-                <p>Su confianza es nuestra prioridad.</p>
-                <p>Nuestra Misión: Brindar a nuestros clientes una experiencia excepcional en la adquisición de vehículos Fiat. Nos esforzamos por ser su socio de confianza en la compra de autos nuevos y usados, garantizando calidad, confiabilidad y satisfacción en cada transacción.</p>
-                <p>Nuestra Visión: Ser la agencia líder en la comercialización de vehículos Fiat, reconocida por su pasión por la marca, su compromiso con la excelencia en el servicio al cliente y su contribución a la promoción de la innovación y la sostenibilidad en la industria automotriz.</p>
-                <p>Nuestros Valores: Integridad, Excelencia en el Servicio al Cliente, Calidad, Innovación, Sostenibilidad, Trabajo en Equipo, Diversidad e Inclusión y Aprendizaje Continuo.</p>
-                <br>
-                <p>Si está buscando la calidad, la sofisticación italiana y un viaje emocionante, su elección es SG Automobile.</p>
-                <p>Déjenos ser su socio de confianza en su próxima aventura en la carretera.</p>
-                <p>¡Esperamos tener el placer de servirle y compartir la emoción de Fiat con usted!</p>
+                <p>Cierre los ojos e intente imaginar dos personas que, en un gran momento laboral de sus vidas, deciden apostar por un cambio y se lanzan a emprender su propia empresa de venta de planes de ahorro de la marca Fiat.</p>
+                    <p>Esas dos personas somos nosotros: Gabriel y Sebastián. Pero no estamos solos. Dentro de ese “nosotros” se encuentran todos y cada uno de nuestros asesores comerciales, con quienes día a día llevamos a cabo nuestra misión: brindarles a nuestros clientes las herramientas y el asesoramiento adecuados para hacer realidad el anhelo del 0km.</p>
+                    <br>
+                    <p>En SG Automobile, apostamos a un trato empático y humano con nuestro entorno, porque estamos convencidos de que no sólo se puede, sino que se debe comercializar el plan de ahorro de una manera confiable y transparente, teniendo en cuenta las necesidades de cada cliente.</p>
+                    <p>Fundamentalmente, porque detrás de ese 0km hay mucho más que un bien a financiar: están los deseos y las expectativas de personas concretas.</p>
+                    <br>
+                    <p>Están las vacaciones en familia, está el llevar a nuestros hijos al colegio, el ir y el regresar del trabajo de una forma segura y confortable, entre muchísimas otras experiencias.</p>
+                    <br>
+                    <p>NUESTRA MISIÓN: Brindarle a nuestros clientes las herramientas y asesoramiento necesario para hacer realidad el anhelo del 0KM.</p>
+                    <p>NUESTRA VISIÓN: El plan de ahorro debe comercializarse de manera confiable y transparente.</p>
+                    <p>NUESTROS VALORES: Nos esforzamos por generar un trato humano y empático, teniendo en cuenta las necesidades de cada cliente.</p>
+
+                <div class="textoViejo" style="display: none;">
+                    <p>En SG Automobile, somos mucho más que una agencia comercializadora de autos. Somos su puerta de entrada al emocionante mundo de Fiat.</p>
+                    <p>Somos apasionados por la marca Fiat. Creemos que los automóviles Fiat representan una combinación perfecta de estilo italiano, innovación tecnológica y rendimiento excepcional. Nuestra pasión por estos vehículos nos impulsa a compartir esta experiencia única con usted.</p>
+                    <p>En SG Automobile, nos enorgullece nuestra integridad, transparencia y dedicación a nuestros clientes. Cada compra es una inversión importante, y estamos comprometidos a hacer que su experiencia con nosotros sea excepcional.</p>
+                    <p>Su confianza es nuestra prioridad.</p>
+                    <p>Nuestra Misión: Brindar a nuestros clientes una experiencia excepcional en la adquisición de vehículos Fiat. Nos esforzamos por ser su socio de confianza en la compra de autos nuevos y usados, garantizando calidad, confiabilidad y satisfacción en cada transacción.</p>
+                    <p>Nuestra Visión: Ser la agencia líder en la comercialización de vehículos Fiat, reconocida por su pasión por la marca, su compromiso con la excelencia en el servicio al cliente y su contribución a la promoción de la innovación y la sostenibilidad en la industria automotriz.</p>
+                    <p>Nuestros Valores: Integridad, Excelencia en el Servicio al Cliente, Calidad, Innovación, Sostenibilidad, Trabajo en Equipo, Diversidad e Inclusión y Aprendizaje Continuo.</p>
+                    <br>
+                    <p>Si está buscando la calidad, la sofisticación italiana y un viaje emocionante, su elección es SG Automobile.</p>
+                    <p>Déjenos ser su socio de confianza en su próxima aventura en la carretera.</p>
+                    <p>¡Esperamos tener el placer de servirle y compartir la emoción de Fiat con usted!</p>
+                </div>
             </div>
         </div>
 
@@ -278,9 +291,7 @@
 
 
         <!-- Empleados -->
-        <div class="tituloConoceModelos">
-            NUESTRO EQUIPO DE PROFESIONALES
-        </div>
+        <h2>NUESTRO EQUIPO DE PROFESIONALES</h2>
 
         <div class="cajaEmpleados">
             <div class="empleado">
@@ -373,166 +384,130 @@
             </div>
         </div>
 
-        <!-- Services Start -->
-        <div class="container-fluid pt-5 pb-3">
-            <div class="container">
-                <h6 class="text-secondary text-uppercase text-center font-weight-medium mb-3">Nuestros Servicios</h6>
-                <h1 class="display-4 text-center mb-5">Que ofrecemos...</h1>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                        <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                                <i class="fas fa-percentage"></i>
-                            </div>
-                            <h4 class="font-weight-bold m-0">Tasa 0% durante todo el plan</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                        <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                                <i class="fas fa-hand-holding-usd"></i>
-                            </div>
-                            <h4 class="font-weight-bold m-0">Cuotas sin impuesto Dolar</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                        <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                                <i class="fas fa-key"></i>
-                            </div>
-                            <h4 class="font-weight-bold m-0">Tomamos tu usado</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 pb-1" style="cursor: pointer">
-                        <div class="d-flex flex-column align-items-center justify-content-center text-center mb-4 px-4 cajaOfrecemos" style="height: 300px;">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
-                                <i class="fas fa-hands-helping"></i>
-                            </div>
-                            <h4 class="font-weight-bold m-0">Entrega con el 20% del valor</h4>
-                        </div>
-                    </div>
+        <h3>NUESTROS SERVICIOS</h3>
+        <h2 style="margin-top: 0">QUÉ OFRECEMOS</h2>
+
+        <div class="cajaPadreOfrecemos">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <div class="textoServicio">
+                    Tasa 0% durante todo el plan
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="textoServicio">
+                    Cuotas sin impuesto Dolar
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="textoServicio">
+                    Tomamos tu usado
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="textoServicio">
+                    Entrega con el 20% del valor
                 </div>
             </div>
         </div>
-        <!-- Services End -->
 
-
-        <!-- Features Start -->
-        <div class="container-fluid py-5">
-            <div class="container">
+        <div class="cajaPadreExperiencia">
+            <div class="cajaSomosDistintos">
+                <div class="subtituloDistintos">SOMOS DISTINTOS</div>
+                <div class="tituloDistintos">¿POR QUE ELEGIRNOS?</div>
+                <div class="textoDistintos">Porque estamos aquí para hacer que cada paso de su viaje hacia su FIAT sea inolvidable. Desde nuestra cuidadosa selección del vehículo hasta nuestro servicio al cliente de primera clase, descubrirá que somos la elección evidente para su próxima adquisición automotriz. En <strong>SG Automibile</strong>, hacemos que sus sueños sobre cuatro ruedas se hagan realidad.</div>
                 <div class="row">
-                    <div class="col-lg-7 m-0 my-lg-5 pt-0 pt-lg-5 pr-lg-5">
-                        <h6 class="text-secondary text-uppercase font-weight-medium mb-3">Somos distintos</h6>
-                        <h1 class="mb-4">¿Por qué elegirnos?</h1>
-                        <p>Porque estamos aquí para hacer que cada paso de su viaje hacia su FIAT sea inolvidable. Desde nuestra cuidadosa selección del vehículo hasta nuestro servicio al cliente de primera clase, descubrirá que somos la elección evidente para su próxima adquisición automotriz. En <strong>SG Automibile</strong>, hacemos que sus sueños sobre cuatro ruedas se hagan realidad.</p>
-                        <div class="row">
-                            <div class="col-sm-6 mb-4">
-                                <h1 class="text-secondary" data-toggle="counter-up">10</h1>
-                                <h5 class="font-weight-bold">Años de Experiencia</h5>
-                            </div>
-                            <div class="col-sm-6 mb-4">
-                                <h1 class="text-secondary" data-toggle="counter-up">250</h1>
-                                <h5 class="font-weight-bold">Asesores Especialistas</h5>
-                            </div>
-                            <div class="col-sm-6 mb-4">
-                                <h1 class="text-secondary" data-toggle="counter-up">250</h1>
-                                <h5 class="font-weight-bold">Clientes Felices</h5>
-                            </div>
-                            <div class="col-sm-6 mb-4">
-                                <h1 class="text-secondary" data-toggle="counter-up">9550</h1>
-                                <h5 class="font-weight-bold">Planes vendidos</h5>
-                            </div>
-                        </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">10</div>
+                        <div class="tituloContador">Años de Experiencia</div>                        
                     </div>
-                    <div class="col-lg-5">
-                        <div class="d-flex flex-column align-items-center justify-content-center h-100 py-5 px-3" style="background: rgb(128, 128, 128); border-radius: 5px;">
-                            <i class="fa-solid fa-trophy" style="color: white"></i>
-                            <h1 class="display-1 text-white mb-3">10+</h1>
-                            <h1 class="text-white m-0" style="text-align: center">Años de Experiencia</h1>
-                        </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">20</div>
+                        <div class="tituloContador">Asesores Especialistas</div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <div class="contador" data-toggle="counter-up">500</div>
+                        <div class="tituloContador">Clientes Felices</div>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                         <div class="contador" data-toggle="counter-up">9550</div>
+                        <div class="tituloContador">Planes vendidos</div>
                     </div>
                 </div>
             </div>
+            <div class="cajaTrofeo">
+                <i class="fa-solid fa-trophy"></i>
+                <div class="numeroAños">10+</div>
+                <div class="textoAños">
+                    <div>Años de</div>
+                    <div>Experiencia</div>
+                </div>
+            </div>
         </div>
-        <!-- Features End -->
 
-
-        
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
-            <div class="row pt-5">
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <h1 class="text-secondary mb-3 logoFooter">SG<span class="text-white" style="font-size:15px">AUTOMOBILE</span></h1>
+        <footer>
+            <div class="padreColumnasFooter">
+                <div class="columnaFooter">
+                    <div class="logoFooter">SG<span class="text-white" style="font-size:15px">AUTOMOBILE</span></div>
                     <img src="img/fiat-logo.png" style="width:100px">
                     <div class="d-flex justify-content-start mt-4">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="redesFooter" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="redesFooter" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="redesFooter" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="redesFooter" href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <h4 class="text-white mb-4">Contacto</h4>
-                    <p>Lunes a Viernes de 09:00 a 19:00 hs.</p>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>Belgrano 985, San Miguel, Bs.As.</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+54 11-3388-6950</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+    
+                <div class="columnaFooter">
+                    <p class="tituloFooter">CONTACTO</p>
+                    <p>Lunes a Viernes de 09:00 a 19:00 hs</a></p>
+                    <p><i class="fa fa-map-marker-alt"></i> Belgrano 985, San Miguel, Bs.As.</p>
+                    <p><i class="fa fa-phone-alt"></i> +54 11-3388-6950</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <h4 class="text-white mb-4">Secciones</h4>
-                    <div class="d-flex flex-column justify-content-start footer">
-                        <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                        <a class="text-white mb-2" href="modelos"><i class="fa fa-angle-right mr-2"></i>Nuestros Modelos</a>
-                        <a class="text-white mb-2" href="clientes.html"><i class="fa fa-angle-right mr-2"></i>Nuestros Clientes</a>
-                        <a class="text-white mb-2" href="preguntas.html"><i class="fa fa-angle-right mr-2"></i>Preguntas Frecuentes</a>
-                        <a class="text-white" href="ubicacion.html"><i class="fa fa-angle-right mr-2"></i>Ubicación y Contacto</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <h4 class="text-white mb-4">Newsletter</h4>
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
-                        </div>
-                        <div>
-                            <button class="btn btn-lg btn-secondary btn-block border-0" type="submit">Submit Now</button>
-                        </div>
-                    </form>
+    
+                <div class="columnaFooter">
+                    <p class="tituloFooter">SECCIONES</p>
+                    <p><a href="index.html"><i class="fa fa-angle-right mr-2"></i> Home</a></p>
+                    <p><a href="nosotros.html"><i class="fa fa-angle-right mr-2"></i> Nosotros</a></p>
+                    <p><a href="clientes.html"><i class="fa fa-angle-right mr-2"></i> Nuestros Clientes</a></p>
+                    <p><a href="preguntas.html"><i class="fa fa-angle-right mr-2"></i> Preguntas Frecuentes</a></p>
+                    <p><a href="ubicacion.html"><i class="fa fa-angle-right mr-2"></i> Ubicación y Contacto</a></p>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
-            <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-medium" style="font-family: 'Tomorrow', sans-serif;">SG Automobile</a>. Todos los derechos reservados. Diseñado por
-                <a class="text-white font-weight-medium" href="https://elias-zurita.github.io/">Elias Zurita</a>
-            </p>
-        </div>
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-        <!-- Boton de whats app para todas las vistas -->
-        <a href="https://wa.me/5491126878269?text=" target="_blank" class="btn-wsp"><i class="fa-brands fa-whatsapp"></i></a>
+    
+            <div class="cajaDesarrollador">
+                <div>© <span>SG Automobile</span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
+            </div>
+        </footer>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Carrousel -->
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <!-- Contador -->
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/countdown.js"></script>
+
     </body>
 
 </html>

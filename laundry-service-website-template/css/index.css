@@ -99,7 +99,6 @@ h4{
     background: #9b1c43;
 }
 .sobreNosotrosIndex{
-    border: red solid 2px;
     display: flex;
     justify-content: center;
     font-family: "Poppins";
@@ -127,7 +126,6 @@ h4{
     font-style: italic;
 }
 .textosNosotrosIndex{
-    background-color: yellow;
     width: 35%;
     padding-left: 2%;
 }
@@ -135,7 +133,6 @@ h4{
     font-size: 18px
 }
 .cajaPadreOfrecemos{
-    border: blue solid 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +173,6 @@ h4{
 }
 .cajaPadreExperiencia{
     margin: 80px auto;
-    border: blue solid 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,7 +203,6 @@ h4{
     font-weight: bold;
 }
 .cajaSomosDistintos{
-    border: violet solid 2px;
     width: 600px;
     margin-right: 50px;
 }
@@ -224,7 +219,6 @@ h4{
     margin: 10px 0 20px 0;
 }
 .contador{
-    border: red solid 2px;
     font-size: 30px;
     font-weight: bold;
     color: #9b1c43
@@ -234,7 +228,6 @@ h4{
     font-size: 18px;
 }
 .cajaProcesosPadre{
-    border: goldenrod solid 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,7 +237,6 @@ h4{
     flex-wrap: wrap;
 }
 .cajaProceso{
-    border: brown solid 2px;
     margin: 15px;
     width: 250px;
     height: 250px;
@@ -274,7 +266,6 @@ h4{
     object-fit: cover;
     width: 1100px;
     margin: 0 auto;
-    border: blue solid 1px;
 }
 .testimonio{
     text-align: center;

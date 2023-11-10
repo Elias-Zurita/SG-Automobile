@@ -1,10 +1,57 @@
 /* SECCION CONTACTO */
 .botonesContacto{
-    width: 50%;
-    margin: 3% auto 0 auto;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 500px;
+    margin: 30px auto;
 }
+.botonContacto{
+    position: relative;
+    width: 80px;
+    height:80px;
+    color: white;
+    border-radius: 100%;
+    font-size:large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botonContacto div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: 0.5s ease-in-out;
+    background-color: black;
+    font-size: 30px;
+}
+.botonWAContacto{
+    font-size:45px
+}
+.botonContacto .front{
+    background-color: black;
+    transform: perspective(500px) rotateY(0deg);
+    border: white solid 1px;
+}
+/* en la propiedad Transform si quiero modificar el giro (vertircal, horizontal, izq a der, der a izq tengo que modificar rotateY a rotateX y los grados + a - */
+.botonContacto .back{
+    background-color: #9b1c43;
+    transform: perspective(500px) rotateY(180deg); 
+    border: black solid 6px;
+}
+.botonContacto:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+}
+.botonContacto:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
 .contacto{
     background-size: cover; /* expande imagen para que cubra todo el fondo */
     color: white;
@@ -16,7 +63,7 @@
 }
 .contacto{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: "Poppins", sans-serif;
     text-align: center;
     padding: 20px 0;
 }
@@ -118,5 +165,20 @@ iframe{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media(max-width:600px){
+    .botonesContacto{
+        width: 90%;
+    }
+    .botonContacto{
+        width: 80px;
+        height:80px;
+    }
+    .botonContacto div{
+        font-size: 30px;
+    }
+    .botonWAContacto{
+        font-size:42px
     }
 }
