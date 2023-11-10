@@ -47,7 +47,24 @@
   background:black;
   color: white;
 }
-
+.botonFicha{
+  text-align: center;
+  padding: 10px 0 30px 0;
+  background: black;
+}
+.botonFicha button{
+  width:250px;
+  padding: 10px;
+  text-align: center;
+  background: #9b1c43;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+.botonFicha button:hover{
+  background: #343a40
+}
 .otrosModelos{
   text-align: center;
   font-weight: bold;
