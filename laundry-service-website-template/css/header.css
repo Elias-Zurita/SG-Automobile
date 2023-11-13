@@ -53,6 +53,11 @@ a{
     cursor: pointer;
     animation: action 1s infinite alternate;
 }
+.back-to-top:hover{
+    background-color: white;
+    color: #9b1c43;
+}
+/*
 @keyframes action {
     0% {
       transform: translateY(0);
@@ -61,6 +66,7 @@ a{
       transform: translateY(-15px);
     }
 }
+*/
 .btn {
     display: inline-block;
     font-weight: 400;

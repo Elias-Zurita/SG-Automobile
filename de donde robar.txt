@@ -1,5 +1,0 @@
-- efecto al hacer hover sobre las imagenes que abren la galeria
-
-- mail al que envie los msj del contacto 
-
-- telefono para vincular con whats app

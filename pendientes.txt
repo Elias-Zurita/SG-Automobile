@@ -1,0 +1,9 @@
+- Preguntas para acordeon de asistencia 
+- Imagenes de autos para banners y secciones de pagina
+- Imagenes de la oficina para seccion oficinas
+- Imagenes de los empleados con el nombre del puesto que ocupan
+- Imagenes de los clientes con testimonios 
+- Años de experiencia, cantidad de asesores, clientes y planes vendidos (numeros)
+- Redes sociales
+- Mail al que quieren que vincule los msj desde la seccion de contacto
+- 
