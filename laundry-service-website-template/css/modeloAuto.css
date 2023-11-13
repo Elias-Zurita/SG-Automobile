@@ -22,9 +22,16 @@
 .cajaImagenesModelos a{
   width:500px;
   margin: 10px;
+  overflow: hidden; /* la imagen no se sale de su caja al expandirse con el hover */
 }
 .cajaImagenesModelos img{
   width: 100%;
+  filter: grayscale(100%);
+  transition: .3s ease-in-out;
+}
+.cajaImagenesModelos a:hover img{
+  filter: grayscale(0%);
+  transform: scale(1.1); 
 }
 .lg-actions .lg-prev:after { /* Iconos para flechas de lightGallery */
   content: "←" !important;

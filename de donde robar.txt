@@ -1,9 +1,5 @@
 - efecto al hacer hover sobre las imagenes que abren la galeria
 
-- hipervinculo en carrousel de modelos al auto
-
 - mail al que envie los msj del contacto 
 
 - telefono para vincular con whats app
-
-- preguntas frecuentes: Acordeón Giamma tiene uno
