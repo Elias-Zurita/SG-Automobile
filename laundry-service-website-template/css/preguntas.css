@@ -1,0 +1,40 @@
+/* Seccion acordeon */
+.acordeon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+  }
+  .headerAcordeon{
+    padding: 12px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: black solid 1px;
+    border-top: none;
+    margin-bottom: 0px;
+  }
+  .tituloAcordeon{
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .accordion-header{
+    border: black solid 1px;
+    border-top: none;
+  }
+  .accordion{
+    --bs-accordion-active-bg: #E6E6E6;  /*  fondo del boton activado*/
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(228, 228, 228, 0.696); /* Color de la sombra del boton activado */
+  }
+  .accordion-collapse a{
+    font-weight: bold;
+    color: #9b1c43;;
+  }

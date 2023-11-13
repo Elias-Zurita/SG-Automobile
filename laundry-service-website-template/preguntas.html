@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+  
     <head>
-                
+        
         <!-- META DE SOFI A CAMBIAAAAAAAAAAAAR!!!!!! -->
 
         <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
@@ -30,9 +30,9 @@
         <meta name="twitter:image" content="https://sofiasanzfitness.com/images/banners/IMG_0451%20-%20copia.JPG"> <!-- La imagen que va a aparecer en Twitter al compartir el sitio web -->
         <meta name="twitter:card" content="summary_large_image"> <!-- La imagen que va a aparecer en Twitter va a ser grande -->
 
-        <!-- Pestaña -->
-        <title>SG Automobile</title>
-        <link rel="shortcut icon" href="img/logoNuevo.png">
+         <!-- Pestaña -->
+         <title>SG Automobile</title>
+         <link rel="shortcut icon" href="img/logoNuevo.png">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,11 +54,9 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://kit.fontawesome.com/d4ee5988c7.js" crossorigin="anonymous"></script>
 
-        <!-- Librerias -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> <!-- Carrousel -->
-        <link type="text/css" rel="stylesheet" href="css/lightgallery.css"> <!-- Galeria de fotos -->
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> <!-- Carrousel -->
-
+         <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
         <!-- Vinculacion con hojas de estilos -->
         <link href="css/header.css" rel="stylesheet">
         <link href="css/footer.css" rel="stylesheet">
@@ -67,9 +65,10 @@
         <link href="css/nosotros.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
         <link href="css/ubicacion.css" rel="stylesheet">
+        <link href="css/preguntas.css" rel="stylesheet">
         
     </head>
-
+  
     <header class="fixed-top">
 
         <!-- Back to Top -->
@@ -116,12 +115,12 @@
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Modelos</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nuestros Modelos</a>
                             <ul class="dropdown-menu">
                                 <li><a href="abarth.html" class="dropdown-item">Abarth</a></li>
                                 <li><a href="argo.html" class="dropdown-item">Argo</a></li>
                                 <li><a href="cronos.html" class="dropdown-item">Cronos</a></li>
-                                <li><a href="mobi.html" class="dropdown-item active">Mobi</a></li>
+                                <li><a href="mobi.html" class="dropdown-item">Mobi</a></li>
                                 <li><a href="pulse.html" class="dropdown-item">Pulse</a></li>
                                 <li><a href="toro.html" class="dropdown-item">Toro</a></li>
                                 <li><a href="ducato.html" class="dropdown-item">Ducato</a></li>
@@ -130,7 +129,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="preguntas.html" class="nav-link">Preguntas Frecuentes</a>
+                            <a href="preguntas.html" class="nav-link active">Preguntas Frecuentes</a>
                         </li>
                         <li class="nav-item">
                             <a href="clientes.html" class="nav-link">Nuestros Clientes</a>
@@ -154,242 +153,100 @@
     </header>
 
     <body>
-
+        
         <!--  CAROUSEL BOOTSTRAP -->
         <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="6000">
-                    <img src="img/mobi/mobiCarrousel1.jpg" class="d-block w-100" alt="...">
+                    <img src="img/fondoCemento.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
-                        <div class="subtituloCarrousel"></div>
-                        <div class="tituloCarousel">MOBI</div>
+                        <div class="subtituloCarrousel" style="color: black; text-shadow: -1px 4px 3px rgba(0,0,0,0.48);">ASESORAMIENTO</div>
+                        <div class="tituloCarousel" style="color: black; text-shadow: -1px 4px 3px rgba(0,0,0,0.48);">PREGUNTAS FRECUENTES</div>
                         <div class="botonCarousel">
-                            <button class=""><a href="">QUIERO MI FIAT</button></a>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="carousel-item" data-bs-interval="6000">
-                    <img src="img/mobi/mobiCarrousel2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <div class="subtituloCarrousel"></div>
-                        <div class="tituloCarousel">MOBI</div>
-                        <div class="botonCarousel">
-                            <button class=""><a href="">QUIERO MI FIAT</button></a>
+                            <button class=""><a href="">VER MÁS</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
-        <!-- MODELOS -->
-        <div class="tituloModelo">
-            MOBI
-        </div>
+        <br><br><br><br>
 
-        <div id="lightgallery" class="cajaImagenesModelos">
-            <a href="img/mobi/mobi2.png">
-                <img src="img/mobi/mobi2.png"/>
-            </a>
-            <a href="img/mobi/mobi3.png">
-                <img src="img/mobi/mobi3.png"/>
-            </a>
-            <a href="img/mobi/mobi4.png">
-                <img src="img/mobi/mobi4.png"/>
-            </a>
-            <a href="img/mobi/mobi5.png">
-                <img src="img/mobi/mobi5.png"/>
-            </a>
-            <a href="img/mobi/mobi6.png">
-                <img src="img/mobi/mobi6.png"/>
-            </a>
-            <a href="img/mobi/mobi7.png">
-                <img src="img/mobi/mobi7.png"/>
-            </a>
-            <a href="img/mobi/mobi8.png">
-                <img src="img/mobi/mobi8.png"/>
-            </a>
-        </div>
+        <div class="acordeon">
 
-        <div class="infoAuto">
-            <p>El Fiat Mobi presenta un estilo único con una fuerte personalidad. Un vehículo ideal para el día a día en la ciudad, de dimensiones compactas pero grande en soluciones. El portón de baúl de vidrio integra los faros traseros. La radio Connect equipada en el Mobi cuenta con un display de 4’’, con entrada USB/Aux en la consola central. Todo es práctico y fácil en el Mobi: el equipo ofrece la función de audio streaming y bluetooth para poder atender llamadas a viva voz con total seguridad. Sistema Emergency Stop Signalling (ESS )En caso de una frenada brusca e imprevista, las luces de balizas del Mobi se encenderán automáticamente. Doble airbag, abs e IsoFix. Equipado con Motor 1,0 de 70 CV. Este motor presenta una calibración específica orientada a optimizar su desempeño.</p>
-        </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+      
+              <div class="headerAcordeon" style="border-top: black 1px solid;">EXPERIENCIA DE PRECOMPRA</div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <div class="tituloAcordeon">¿LAS CUOTAS SON FIJAS?</div>
+                  </button>
+                </div>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Las cuotas son variables según el costo de la unidad divido 84 o 120 o el total de cuotas a abonar.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <div class="tituloAcordeon">¿CÓMO PUEDO SUSCRIBIRME?</div>
+                  </button>
+                </div>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Envianos tus datos desde los formularios o contactanos por telefono, te enviaremos toda la documentación online.</div>
+                </div>
+              </div>
+              
+              <div class="headerAcordeon">EXPERIENCIA DE COMPRA:</div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingEight">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    <div class="tituloAcordeon">¿Cuales son los medios de pago?</div>
+                  </button>
+                </div>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div>Aceptamos todos los médios de pago en Argentina.</div>
+                    <ol style="text-align: start;" type="1">
+                      <li>Tarjetas de Crédito</li>
+                      <li>Débito</li>
+                      <li>PagoFacil</li>
+                      <li>Transferencias Bancarias</li>
+                      <li>MercadoPago</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="headerAcordeon">ENTREGAS DE UNIDADES</div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingEleven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                    <div class="tituloAcordeon">¿Como funcionan las entregas?</div>
+                  </button>
+                </div>
+                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Reservando tu unidad según el plan e instancia que selecciones en tu suscripción.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingNine">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseEleven">
+                    <div class="tituloAcordeon">¿Donde me entregan el vehículo?</div>
+                  </button>
+                </div>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Podemos entregarte tu nuevo 0km en todo el país o en nuestra casa central en Buenos Aires.</div>
+                </div>
+              </div>
 
-        <div class="botonFicha">
-            <a href="img\mobi\mobiFichaTecnica.jpg" download="mobiFichaTecnica"><button>DESCARGAR FICHA TÉCNICA</button></a>
-        </div>
+              
+            </div>
+      
+          </div>
 
-        <div class="otrosModelos">
-            Nuestros Modelos
-        </div>
-
-        <!-- Flickity HTML init -->
-        <div class="cajaCarouselFlickity" data-flickity='{ "freeScroll": true, "wrapAround": true, "groupCells": true}'>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/abarth/abarth1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">ABARTH</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/argo/argoo1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">ARGO</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/cronos/cronos1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">CRONOS</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/mobi/mobi1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">MOBI</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/pulse/pulse1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">PULSE</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/toro/toro1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">TORO</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/ducato/ducato1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">DUCATO</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/fiorino/fiorino1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">FIORINO</div>
-            </div>
-            <div class="autoCarouselFlickity">
-                <div class="imagenAutoCarousel">
-                    <img src="img/strada/strada1.png" alt="" class="imagenAumentada">
-                </div>
-                <div class="nombreAuto">STRADA</div>
-            </div>
-        </div>
-
-        <br>
-        <br>
-        <br>
-
-        <div class="cajaPadreOfrecemos">
-            <div class="cajaServicio">
-                <div class="iconoServicio">
-                    <i class="fas fa-percentage"></i>
-                </div>
-                <div class="textoServicio">
-                    Tasa 0% durante todo el plan
-                </div>
-            </div>
-            <div class="cajaServicio">
-                <div class="iconoServicio">
-                    <i class="fas fa-hand-holding-usd"></i>
-                </div>
-                <div class="textoServicio">
-                    Cuotas sin impuesto Dolar
-                </div>
-            </div>
-            <div class="cajaServicio">
-                <div class="iconoServicio">
-                    <i class="fas fa-key"></i>
-                </div>
-                <div class="textoServicio">
-                    Tomamos tu usado
-                </div>
-            </div>
-            <div class="cajaServicio">
-                <div class="iconoServicio">
-                    <i class="fas fa-hands-helping"></i>
-                </div>
-                <div class="textoServicio">
-                    Entrega con el 20% del valor
-                </div>
-            </div>
-        </div>
-
-        <div class="botonesContacto">
-            <div class="botonContacto">
-                <div class="face front">
-                    <i class="fa-brands fa-whatsapp botonWAContacto"></i>
-                </div>
-                <div class="face back">
-                    <i class="fa-brands fa-whatsapp botonWAContacto"></i>
-                </div>
-            </div>
-            <div class="botonContacto">
-                <div class="face front">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-                <div class="face back">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-            </div>
-            <div class="botonContacto">
-                <div class="face front">
-                    <i class="fa-solid fa-phone"></i>
-                </div>
-                <div class="face back">
-                    <i class="fa-solid fa-phone"></i>
-                </div>
-            </div>
-        </div>
-
-        <!-- SECCION CONTACTO -->
-        <section id="contacto" class="contacto">
-            <div class="contenido-seccion">
-                <div class="fila">
-                    <!-- Formulario -->
-                    <div class="col">
-                            <!-- MODELOS -->
-                            <h2 style="font-size:37px; margin-bottom: 25px;">CONTACTANOS</h2>
-                        <form action="https://formsubmit.co/iblancolopez73@gmail.com" method="post"> <!-- msj al correo electrónico -->
-                            <input type="text" placeholder="🙂 Nombre y Apellido" name="nombre">
-                            <input type="text" placeholder="📞 Teléfono o Whatsapp" name="telefono">
-                            <input type="text" placeholder="&#128231 Correo Electrónico" name="email">
-                            <textarea name="mensaje" cols="30" rows="10" placeholder="💬 ¿Cómo podemos ayudarte?" name="mensaje"></textarea>
-                            <button>
-                                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
-                                <span class="overlay"></span>
-                            </button> 
-                        </form>
-                    </div>
-                    
-                    <!-- Mapa  -->
-                    <div class="col">
-                        <h2 style="font-size:37px; margin-bottom: 25px;">NUESTRAS OFICINAS</h2>
-                        <div class="local">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.481948806905!2d-58.709123600000005!3d-34.5413509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0df925fd73%3A0x6a1f87cd280f4d3a!2sBelgrano%20985%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1698024441043!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <br><br><br><br>
 
         <footer>
             <div class="padreColumnasFooter">
@@ -426,7 +283,7 @@
                 <div>© <span>SG Automobile</span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
             </div>
         </footer>
-        
+
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -442,16 +299,7 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script src="js/countdown.js"></script>
-
-        <!-- Libreria flickyty para carrouseles -->
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
-
-        <!-- lightgallery plugins -->
-        <script src="js/lightgallery.min.js"></script>
-        <script type="text/javascript">
-            lightGallery(document.getElementById('lightgallery')); 
-        </script>
-
+    
     </body>
 
 </html>
