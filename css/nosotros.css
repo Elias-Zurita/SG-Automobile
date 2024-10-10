@@ -79,6 +79,9 @@
     width: 250px;
     margin: 10px;
 }
+.empleado img{
+    max-height: 270px;
+}
 .cajaPresentacionSG{
     width: 100%;
     margin: 0 auto 3% 0;
